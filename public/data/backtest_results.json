@@ -1,71 +1,26 @@
-{
-  "summary": {
-    "tournamentsTested": 3,
-    "correctChampionPicks": 1,
-    "top4HitRate": 66.7,
-    "groupStageAccuracy": 79.2,
-    "brierScore": 0.146
+[
+  {
+    "year": 2018,
+    "top5": [
+      "Brazil",
+      "Spain",
+      "Germany",
+      "Belgium",
+      "Portugal"
+    ],
+    "actual_winner": "France",
+    "winner_rank": 7
   },
-  "tournaments": [
-    {
-      "year": 2014,
-      "predictedWinner": "Brazil",
-      "predictedWinnerProbability": 19.8,
-      "actualWinner": "Germany",
-      "actualWinnerPredictedProbability": 9.4,
-      "top4Predicted": [
-        "Brazil",
-        "Germany",
-        "Argentina",
-        "Netherlands"
-      ],
-      "top4Actual": [
-        "Germany",
-        "Argentina",
-        "Netherlands",
-        "Brazil"
-      ],
-      "top4Matches": 4
-    },
-    {
-      "year": 2018,
-      "predictedWinner": "Brazil",
-      "predictedWinnerProbability": 17.2,
-      "actualWinner": "France",
-      "actualWinnerPredictedProbability": 12.6,
-      "top4Predicted": [
-        "Brazil",
-        "Germany",
-        "France",
-        "Spain"
-      ],
-      "top4Actual": [
-        "France",
-        "Croatia",
-        "Belgium",
-        "England"
-      ],
-      "top4Matches": 1
-    },
-    {
-      "year": 2022,
-      "predictedWinner": "Brazil",
-      "predictedWinnerProbability": 16.4,
-      "actualWinner": "Argentina",
-      "actualWinnerPredictedProbability": 11.1,
-      "top4Predicted": [
-        "Brazil",
-        "Argentina",
-        "France",
-        "England"
-      ],
-      "top4Actual": [
-        "Argentina",
-        "France",
-        "Croatia",
-        "Morocco"
-      ],
-      "top4Matches": 2
-    }
-  ]
-}
+  {
+    "year": 2022,
+    "top5": [
+      "Brazil",
+      "Argentina",
+      "Spain",
+      "Belgium",
+      "Netherlands"
+    ],
+    "actual_winner": "Argentina",
+    "winner_rank": 2
+  }
+]

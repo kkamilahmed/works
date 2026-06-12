@@ -1,52 +1,152 @@
 [
   {
+    "team": "Spain",
+    "win_probability": 12.09,
+    "elo": 1910.2,
+    "r32_prob": 97.9,
+    "r16_prob": 68.8,
+    "qf_prob": 46.6,
+    "sf_prob": 30.5,
+    "final_prob": 19.4
+  },
+  {
+    "team": "Mexico",
+    "win_probability": 9.32,
+    "elo": 1887.1,
+    "r32_prob": 97.3,
+    "r16_prob": 65.5,
+    "qf_prob": 42.2,
+    "sf_prob": 26.2,
+    "final_prob": 15.9
+  },
+  {
     "team": "Argentina",
-    "elo": 2105,
-    "winnerProbability": 16.5
+    "win_probability": 8.9,
+    "elo": 1888.1,
+    "r32_prob": 91.3,
+    "r16_prob": 61.7,
+    "qf_prob": 39.7,
+    "sf_prob": 24.6,
+    "final_prob": 15.1
+  },
+  {
+    "team": "Morocco",
+    "win_probability": 8.73,
+    "elo": 1886.3,
+    "r32_prob": 92.8,
+    "r16_prob": 62.3,
+    "qf_prob": 40,
+    "sf_prob": 24.9,
+    "final_prob": 14.8
+  },
+  {
+    "team": "Japan",
+    "win_probability": 5.23,
+    "elo": 1843.8,
+    "r32_prob": 91.5,
+    "r16_prob": 56.3,
+    "qf_prob": 33,
+    "sf_prob": 18.6,
+    "final_prob": 9.9
   },
   {
     "team": "France",
-    "elo": 2043,
-    "winnerProbability": 10
+    "win_probability": 5.21,
+    "elo": 1848.6,
+    "r32_prob": 89.3,
+    "r16_prob": 55.6,
+    "qf_prob": 33.1,
+    "sf_prob": 18.7,
+    "final_prob": 9.9
   },
   {
-    "team": "Spain",
-    "elo": 2035,
-    "winnerProbability": 9.1
+    "team": "Canada",
+    "win_probability": 5.02,
+    "elo": 1837.4,
+    "r32_prob": 96.7,
+    "r16_prob": 58.6,
+    "qf_prob": 34,
+    "sf_prob": 18.9,
+    "final_prob": 9.9
   },
   {
     "team": "England",
-    "elo": 2010,
-    "winnerProbability": 7.2
+    "win_probability": 4.75,
+    "elo": 1836.4,
+    "r32_prob": 93.5,
+    "r16_prob": 56.3,
+    "qf_prob": 32.2,
+    "sf_prob": 17.8,
+    "final_prob": 9.3
   },
   {
     "team": "Brazil",
-    "elo": 2000,
-    "winnerProbability": 6.6
+    "win_probability": 4.2,
+    "elo": 1830.6,
+    "r32_prob": 88.4,
+    "r16_prob": 52.7,
+    "qf_prob": 29.9,
+    "sf_prob": 16.3,
+    "final_prob": 8.4
+  },
+  {
+    "team": "Algeria",
+    "win_probability": 3.94,
+    "elo": 1832,
+    "r32_prob": 81.7,
+    "r16_prob": 49.2,
+    "qf_prob": 28,
+    "sf_prob": 15,
+    "final_prob": 7.9
   },
   {
     "team": "Portugal",
-    "elo": 1990,
-    "winnerProbability": 6.3
+    "win_probability": 3.16,
+    "elo": 1808,
+    "r32_prob": 86.9,
+    "r16_prob": 49.1,
+    "qf_prob": 26.5,
+    "sf_prob": 13.5,
+    "final_prob": 6.6
   },
   {
-    "team": "Netherlands",
-    "elo": 1975,
-    "winnerProbability": 5.3
-  },
-  {
-    "team": "Belgium",
-    "elo": 1960,
-    "winnerProbability": 4.7
+    "team": "Iran",
+    "win_probability": 2.78,
+    "elo": 1802.7,
+    "r32_prob": 82.9,
+    "r16_prob": 46.6,
+    "qf_prob": 24.5,
+    "sf_prob": 12.4,
+    "final_prob": 5.9
   },
   {
     "team": "Germany",
-    "elo": 1955,
-    "winnerProbability": 4.2
+    "win_probability": 2.59,
+    "elo": 1793.4,
+    "r32_prob": 90,
+    "r16_prob": 49.3,
+    "qf_prob": 25.5,
+    "sf_prob": 12.4,
+    "final_prob": 5.9
   },
   {
-    "team": "Italy",
-    "elo": 1940,
-    "winnerProbability": 3.5
+    "team": "Senegal",
+    "win_probability": 2.31,
+    "elo": 1792.9,
+    "r32_prob": 80.1,
+    "r16_prob": 43.9,
+    "qf_prob": 22.5,
+    "sf_prob": 11,
+    "final_prob": 5.2
+  },
+  {
+    "team": "Colombia",
+    "win_probability": 2.19,
+    "elo": 1802.3,
+    "r32_prob": 71.4,
+    "r16_prob": 39.7,
+    "qf_prob": 20.9,
+    "sf_prob": 10.4,
+    "final_prob": 4.8
   }
 ]
