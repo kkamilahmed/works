@@ -1,0 +1,242 @@
+[
+  {
+    "rank": 1,
+    "team": "Argentina",
+    "elo": 2105
+  },
+  {
+    "rank": 2,
+    "team": "France",
+    "elo": 2043
+  },
+  {
+    "rank": 3,
+    "team": "Spain",
+    "elo": 2035
+  },
+  {
+    "rank": 4,
+    "team": "England",
+    "elo": 2010
+  },
+  {
+    "rank": 5,
+    "team": "Brazil",
+    "elo": 2000
+  },
+  {
+    "rank": 6,
+    "team": "Portugal",
+    "elo": 1990
+  },
+  {
+    "rank": 7,
+    "team": "Netherlands",
+    "elo": 1975
+  },
+  {
+    "rank": 8,
+    "team": "Belgium",
+    "elo": 1960
+  },
+  {
+    "rank": 9,
+    "team": "Germany",
+    "elo": 1955
+  },
+  {
+    "rank": 10,
+    "team": "Italy",
+    "elo": 1940
+  },
+  {
+    "rank": 11,
+    "team": "Croatia",
+    "elo": 1920
+  },
+  {
+    "rank": 12,
+    "team": "Colombia",
+    "elo": 1910
+  },
+  {
+    "rank": 13,
+    "team": "Uruguay",
+    "elo": 1905
+  },
+  {
+    "rank": 14,
+    "team": "Morocco",
+    "elo": 1895
+  },
+  {
+    "rank": 15,
+    "team": "Switzerland",
+    "elo": 1885
+  },
+  {
+    "rank": 16,
+    "team": "Japan",
+    "elo": 1875
+  },
+  {
+    "rank": 17,
+    "team": "USA",
+    "elo": 1865
+  },
+  {
+    "rank": 18,
+    "team": "Denmark",
+    "elo": 1858
+  },
+  {
+    "rank": 19,
+    "team": "Senegal",
+    "elo": 1850
+  },
+  {
+    "rank": 20,
+    "team": "Mexico",
+    "elo": 1845
+  },
+  {
+    "rank": 21,
+    "team": "South Korea",
+    "elo": 1838
+  },
+  {
+    "rank": 22,
+    "team": "Ecuador",
+    "elo": 1832
+  },
+  {
+    "rank": 23,
+    "team": "Austria",
+    "elo": 1828
+  },
+  {
+    "rank": 24,
+    "team": "Iran",
+    "elo": 1820
+  },
+  {
+    "rank": 25,
+    "team": "Australia",
+    "elo": 1805
+  },
+  {
+    "rank": 26,
+    "team": "Canada",
+    "elo": 1800
+  },
+  {
+    "rank": 27,
+    "team": "Tunisia",
+    "elo": 1795
+  },
+  {
+    "rank": 28,
+    "team": "Ukraine",
+    "elo": 1788
+  },
+  {
+    "rank": 29,
+    "team": "Egypt",
+    "elo": 1782
+  },
+  {
+    "rank": 30,
+    "team": "Algeria",
+    "elo": 1778
+  },
+  {
+    "rank": 31,
+    "team": "Serbia",
+    "elo": 1772
+  },
+  {
+    "rank": 32,
+    "team": "Poland",
+    "elo": 1765
+  },
+  {
+    "rank": 33,
+    "team": "Norway",
+    "elo": 1760
+  },
+  {
+    "rank": 34,
+    "team": "Ivory Coast",
+    "elo": 1750
+  },
+  {
+    "rank": 35,
+    "team": "Panama",
+    "elo": 1735
+  },
+  {
+    "rank": 36,
+    "team": "Saudi Arabia",
+    "elo": 1728
+  },
+  {
+    "rank": 37,
+    "team": "Qatar",
+    "elo": 1722
+  },
+  {
+    "rank": 38,
+    "team": "Ghana",
+    "elo": 1715
+  },
+  {
+    "rank": 39,
+    "team": "Paraguay",
+    "elo": 1708
+  },
+  {
+    "rank": 40,
+    "team": "Costa Rica",
+    "elo": 1700
+  },
+  {
+    "rank": 41,
+    "team": "Jordan",
+    "elo": 1685
+  },
+  {
+    "rank": 42,
+    "team": "Uzbekistan",
+    "elo": 1678
+  },
+  {
+    "rank": 43,
+    "team": "South Africa",
+    "elo": 1670
+  },
+  {
+    "rank": 44,
+    "team": "Cape Verde",
+    "elo": 1660
+  },
+  {
+    "rank": 45,
+    "team": "Curacao",
+    "elo": 1635
+  },
+  {
+    "rank": 46,
+    "team": "Jamaica",
+    "elo": 1615
+  },
+  {
+    "rank": 47,
+    "team": "New Zealand",
+    "elo": 1600
+  },
+  {
+    "rank": 48,
+    "team": "Haiti",
+    "elo": 1580
+  }
+]

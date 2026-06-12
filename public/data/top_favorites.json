@@ -1,0 +1,52 @@
+[
+  {
+    "team": "Argentina",
+    "elo": 2105,
+    "winnerProbability": 16.5
+  },
+  {
+    "team": "France",
+    "elo": 2043,
+    "winnerProbability": 10
+  },
+  {
+    "team": "Spain",
+    "elo": 2035,
+    "winnerProbability": 9.1
+  },
+  {
+    "team": "England",
+    "elo": 2010,
+    "winnerProbability": 7.2
+  },
+  {
+    "team": "Brazil",
+    "elo": 2000,
+    "winnerProbability": 6.6
+  },
+  {
+    "team": "Portugal",
+    "elo": 1990,
+    "winnerProbability": 6.3
+  },
+  {
+    "team": "Netherlands",
+    "elo": 1975,
+    "winnerProbability": 5.3
+  },
+  {
+    "team": "Belgium",
+    "elo": 1960,
+    "winnerProbability": 4.7
+  },
+  {
+    "team": "Germany",
+    "elo": 1955,
+    "winnerProbability": 4.2
+  },
+  {
+    "team": "Italy",
+    "elo": 1940,
+    "winnerProbability": 3.5
+  }
+]
