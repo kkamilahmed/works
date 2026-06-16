@@ -172,7 +172,540 @@
   letter-spacing: 0.04em;
 }
 
-/* ---------- Slide 0: Chat ---------- */
+/* ---------- Slide 0: IBM BOB / VS Code chat ---------- */
+
+.slide0-root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+/* ── Code editor panel (left side in split view) ── */
+
+.slide0-editor {
+  flex: 0 0 0%;
+  height: 100%;
+  background: #1e1e1e;
+  overflow: hidden;
+  border-right: 1px solid #3c3c3c;
+  display: flex;
+  flex-direction: column;
+  transition: flex-basis 650ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.slide0-editor--visible {
+  flex: 0 0 60%;
+}
+
+.slide0-editor__tabs {
+  height: 36px;
+  background: #252526;
+  border-bottom: 1px solid #3c3c3c;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+
+.slide0-editor__tab {
+  height: 34px;
+  padding: 0 14px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 12px;
+  color: #cccccc;
+  background: #1e1e1e;
+  border-right: 1px solid #3c3c3c;
+  border-top: 1px solid #007acc;
+  white-space: nowrap;
+}
+
+.slide0-editor__tab-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #4ec9b0;
+  flex-shrink: 0;
+}
+
+.slide0-editor__tab-close {
+  color: #6f6f6f;
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+.slide0-editor__body {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  scrollbar-width: none;
+}
+
+.slide0-editor__body::-webkit-scrollbar {
+  display: none;
+}
+
+.slide0-editor__gutter {
+  flex-shrink: 0;
+  width: 50px;
+  background: #1e1e1e;
+  padding: 14px 0 14px;
+  text-align: right;
+  user-select: none;
+}
+
+.slide0-editor__ln {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  line-height: 1.65;
+  color: #404040;
+  padding-right: 18px;
+}
+
+.slide0-editor__ln--cursor {
+  color: #999999;
+}
+
+.slide0-editor__code {
+  flex: 1;
+  min-width: 0;
+  padding: 14px 20px 14px 0;
+  overflow-x: hidden;
+}
+
+.slide0-editor__line {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  line-height: 1.65;
+  white-space: pre;
+  animation: s0-fade-in 120ms ease both;
+}
+
+/* ── Bob activity feed (split mode) ── */
+
+.bob-activity {
+  padding: 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.bob-activity__item {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #6f6f6f;
+  animation: s0-line-in 300ms ease both;
+}
+
+.bob-activity__item--success {
+  color: #42be65;
+}
+
+.bob-activity__item--action {
+  color: #3ddbd9;
+}
+
+.bob-activity__item--working {
+  color: #c6c6c6;
+}
+
+.bob {
+  flex: 1;
+  min-width: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #1a1a1a;
+  overflow: hidden;
+  transition: flex 650ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bob--narrow .bob__messages-inner {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.bob--narrow .bob__composer-inner {
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+/* Top bar */
+.bob__bar {
+  height: 36px;
+  background: #252526;
+  border-bottom: 1px solid #3c3c3c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  flex-shrink: 0;
+}
+
+.bob__bar-title {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #c6c6c6;
+}
+
+.bob__bar-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #8d8d8d;
+  font-size: 15px;
+}
+
+.bob__bar-icon {
+  cursor: default;
+}
+
+/* Messages area */
+.bob__messages {
+  flex: 1;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.bob__messages::-webkit-scrollbar {
+  display: none;
+}
+
+.bob__messages-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 32px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Welcome screen */
+.bob__welcome {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding-bottom: 80px;
+}
+
+.bob__welcome-hi {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  color: #e0e0e0;
+  margin: 0;
+}
+
+.bob__welcome-name {
+  color: var(--cds-blue-40);
+  font-weight: 600;
+}
+
+.bob__welcome-sub {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 13px;
+  color: #6f6f6f;
+  margin: 0;
+}
+
+/* Chat messages */
+.bob-msg {
+  display: flex;
+  gap: 14px;
+  padding: 18px 0;
+  border-bottom: 1px solid #252525;
+}
+
+.bob-msg--user {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.bob-msg__label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #6f6f6f;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.bob-msg--bob .bob-msg__label {
+  color: var(--cds-teal-40);
+}
+
+.bob-msg__avatar {
+  width: 26px;
+  height: 26px;
+  background: var(--cds-teal-40);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #161616;
+  flex-shrink: 0;
+  margin-top: 18px;
+}
+
+.bob-msg__body {
+  flex: 1;
+  min-width: 0;
+}
+
+.bob-msg__text {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.65;
+  color: #e0e0e0;
+}
+
+.bob-msg__text--user {
+  background: #2a2d2e;
+  border: 1px solid #3a3d3e;
+  padding: 10px 14px;
+  border-radius: 6px 6px 2px 6px;
+  font-size: 13px;
+  color: #b0b0b0;
+  max-width: 86%;
+  text-align: left;
+}
+
+.bob-q-divider {
+  height: 1px;
+  background: #333;
+  margin: 14px 0 12px;
+}
+
+.bob-q-label {
+  display: block;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--cds-teal-40);
+  margin-bottom: 8px;
+}
+
+/* option buttons */
+.bob-options {
+  display: flex;
+  gap: 8px;
+  margin-top: 14px;
+  flex-wrap: wrap;
+  opacity: 0;
+  animation: s0-fade-in 300ms ease forwards;
+}
+
+.bob-option-btn {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  padding: 7px 16px;
+  border: 1px solid #525252;
+  background: transparent;
+  color: #c6c6c6;
+  cursor: default;
+  border-radius: 4px;
+  white-space: nowrap;
+  transition: border-color 220ms ease, color 220ms ease, background 220ms ease;
+}
+
+.bob-option-btn--selected {
+  border-color: var(--cds-teal-40);
+  color: var(--cds-teal-40);
+  background: rgba(8, 189, 186, 0.08);
+}
+
+.bob-option-btn--primary.bob-option-btn--selected {
+  border-color: var(--cds-blue-40);
+  color: #ffffff;
+  background: rgba(69, 137, 255, 0.12);
+}
+
+/* Plan card */
+.bob-plan {
+  margin: 8px 0 4px;
+  border: 1px solid #3c3c3c;
+  border-radius: 4px;
+  background: #222222;
+  padding: 16px 20px;
+  opacity: 0;
+  animation: s0-fade-in 350ms ease forwards;
+}
+
+.bob-plan__header {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  font-weight: 600;
+  color: #f4f4f4;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bob-plan__icon {
+  color: var(--cds-teal-40);
+}
+
+.bob-plan__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.bob-plan__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #e0e0e0;
+  padding: 1px 0;
+  opacity: 0;
+  animation: s0-line-in 240ms ease forwards;
+}
+
+.bob-plan__bullet {
+  flex-shrink: 0;
+  color: #6f6f6f;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  margin-top: 3px;
+}
+
+/* Composer / bottom input */
+.bob__composer {
+  border-top: 1px solid #3c3c3c;
+  background: #1e1e1e;
+  flex-shrink: 0;
+}
+
+.bob__composer-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 10px 32px 14px;
+}
+
+.bob__toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.bob__toolbar-icons {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* Toggle pill */
+.bob__toggle {
+  display: inline-flex;
+  align-items: center;
+  width: 30px;
+  height: 16px;
+  background: var(--cds-blue-40);
+  border-radius: 8px;
+  padding: 2px;
+  flex-shrink: 0;
+}
+
+.bob__toggle::after {
+  content: '';
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+}
+
+.bob__tool-icon {
+  font-size: 13px;
+  color: #6f6f6f;
+  cursor: default;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.bob__cancel-btn {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 12px;
+  color: #8d8d8d;
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: default;
+}
+
+.bob__input {
+  background: #2a2a2a;
+  border: 1px solid #3c3c3c;
+  border-radius: 6px;
+  padding: 10px 14px;
+  min-height: 72px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 13px;
+  color: #d4d4d4;
+  line-height: 1.55;
+  box-sizing: border-box;
+  width: 100%;
+  word-break: break-word;
+}
+
+.bob__input--sending {
+  opacity: 0.4;
+  transition: opacity 200ms ease;
+}
+
+.bob__input-ph {
+  color: #525252;
+}
+
+.bob__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+  padding: 0 2px;
+}
+
+.bob__plan-label,
+.bob__findings-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  color: #525252;
+  cursor: default;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.bob__footer-icon {
+  color: #6f6f6f;
+}
+
+.bob__footer-arrow {
+  font-size: 9px;
+}
+
+/* ---------- Slide 0: Chat (legacy classes kept for animations) ---------- */
 
 .s0 {
   width: 100%;
@@ -192,6 +725,12 @@
   gap: 24px;
   padding-top: 24px;
   min-width: 0;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.s0__chat::-webkit-scrollbar {
+  display: none;
 }
 
 .s0__reasoning {
@@ -372,6 +911,133 @@
 
 .s0-overlay--visible {
   opacity: 1;
+}
+
+/* ---------- Slide 0: prompt bubble, questions, options, plan ---------- */
+
+.s0-bubble--prompt {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #a8a8a8;
+}
+
+.s0-q-block {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid #393939;
+}
+
+.s0-q-label {
+  display: block;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--cds-teal-40);
+  margin-bottom: 8px;
+}
+
+.s0-options {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+  opacity: 0;
+  animation: s0-fade-in 300ms ease forwards;
+}
+
+@keyframes s0-fade-in {
+  to {
+    opacity: 1;
+  }
+}
+
+.s0-option-btn {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  padding: 8px 14px;
+  border: 1px solid #525252;
+  background: transparent;
+  color: #c6c6c6;
+  cursor: default;
+  border-radius: 2px;
+  white-space: nowrap;
+  transition: border-color 220ms ease, color 220ms ease, background 220ms ease;
+}
+
+.s0-option-btn--selected {
+  border-color: var(--cds-teal-40);
+  color: var(--cds-teal-40);
+  background: rgba(8, 189, 186, 0.07);
+}
+
+.s0-option-btn--primary {
+  border-color: var(--cds-blue-40);
+  color: var(--cds-blue-40);
+}
+
+.s0-option-btn--primary.s0-option-btn--selected {
+  border-color: var(--cds-blue-40);
+  color: #ffffff;
+  background: rgba(69, 137, 255, 0.12);
+}
+
+/* plan / todo panel */
+
+.s0-plan__no-tasks {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  color: #6f6f6f;
+  opacity: 0;
+  animation: s0-fade-in 300ms ease forwards;
+}
+
+.s0-plan__created {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  font-weight: 600;
+  color: #f4f4f4;
+  margin-bottom: 14px;
+  letter-spacing: 0.01em;
+  opacity: 0;
+  animation: s0-fade-in 300ms ease forwards;
+}
+
+.s0-plan__icon {
+  color: var(--cds-teal-40);
+  margin-right: 6px;
+}
+
+.s0-plan__items {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.s0-plan__items::-webkit-scrollbar {
+  display: none;
+}
+
+.s0-plan__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 13px;
+  line-height: 1.65;
+  color: #f4f4f4;
+  padding: 2px 0;
+  opacity: 0;
+  animation: s0-line-in 240ms ease forwards;
+}
+
+.s0-plan__bullet {
+  flex-shrink: 0;
+  color: #6f6f6f;
+  font-size: 11px;
+  margin-top: 3px;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 /* ---------- Slide 2: Group Stage Predictions ---------- */
