@@ -1,10 +1,9 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { TrophyFilled } from '@carbon/icons-react';
 import useJsonData from '../hooks/useJsonData';
 
-const ZOOM_DELAY_MS = 2000;
 const ZOOM_DURATION_MS = 900;
-const REVEAL_DELAY_MS = ZOOM_DELAY_MS + ZOOM_DURATION_MS + 200;
+const REVEAL_DELAY_MS = ZOOM_DURATION_MS + 200;
 const WINNER_DELAY_MS = REVEAL_DELAY_MS + 700;
 const CONFETTI_COUNT = 40;
 
@@ -53,10 +52,11 @@ function FinalSlot({ team, probability, revealed }) {
   );
 }
 
-function MatchBox({ pair, gridColumn, gridRow, delayMs, kind, revealed }) {
+function MatchBox({ pair, gridColumn, gridRow, delayMs, kind, revealed, boxRef }) {
   const className = `s4-match s4-match--${kind}`;
   return (
     <div
+      ref={boxRef}
       className={className}
       style={{ gridColumn, gridRow, animationDelay: `${delayMs}ms` }}
     >
@@ -75,24 +75,30 @@ function MatchBox({ pair, gridColumn, gridRow, delayMs, kind, revealed }) {
   );
 }
 
-export default function Slide4Bracket({ active }) {
+export default function Slide4Bracket({ active, shouldZoom }) {
   const { data: bracket } = useJsonData('most_likely_bracket.json');
   const [phase, setPhase] = useState('enter');
   const [activationKey, setActivationKey] = useState(0);
+  const [svgPaths, setSvgPaths] = useState([]);
+  const bracketRef = useRef(null);
+  const boxRefs    = useRef({});
 
   useEffect(() => {
     if (!active) return;
     setActivationKey((k) => k + 1);
     setPhase('enter');
-    const t1 = setTimeout(() => setPhase('zoom'), ZOOM_DELAY_MS);
-    const t2 = setTimeout(() => setPhase('reveal'), REVEAL_DELAY_MS);
-    const t3 = setTimeout(() => setPhase('winner'), WINNER_DELAY_MS);
+  }, [active]);
+
+  useEffect(() => {
+    if (!shouldZoom) return;
+    setPhase('zoom');
+    const t1 = setTimeout(() => setPhase('reveal'), REVEAL_DELAY_MS);
+    const t2 = setTimeout(() => setPhase('winner'), WINNER_DELAY_MS);
     return () => {
       clearTimeout(t1);
       clearTimeout(t2);
-      clearTimeout(t3);
     };
-  }, [active]);
+  }, [shouldZoom]);
 
   const columns = useMemo(() => {
     if (!bracket) return [];
@@ -113,6 +119,90 @@ export default function Slide4Bracket({ active }) {
       { kind: 'right', depth: 0, matchPairs: r32.slice(8, 16) },
     ];
   }, [bracket]);
+
+  useEffect(() => {
+    if (!columns.length) return;
+
+    const compute = () => {
+      const bracketEl = bracketRef.current;
+      if (!bracketEl) return;
+      const br = bracketEl.getBoundingClientRect();
+      // getBoundingClientRect returns visual (post-transform) coords; divide by
+      // the CSS scale so SVG paths stay in the element's layout coordinate space.
+      const scale = bracketEl.offsetWidth > 0 ? br.width / bracketEl.offsetWidth : 1;
+
+      const getBox = (col, row) => {
+        const el = boxRefs.current[`${col}-${row}`];
+        if (!el) return null;
+        const r = el.getBoundingClientRect();
+        return {
+          left:  (r.left  - br.left) / scale,
+          right: (r.right - br.left) / scale,
+          cy:    ((r.top + r.bottom) / 2 - br.top) / scale,
+          top:   (r.top   - br.top) / scale,
+          h:     r.height / scale,
+        };
+      };
+
+      const paths = [];
+
+      const drawBracket = (m1, m2, parent, side) => {
+        if (!m1 || !m2 || !parent) return;
+        const midY = (m1.cy + m2.cy) / 2;
+        if (side === 'left') {
+          const midX = (m1.right + parent.left) / 2;
+          paths.push(
+            `M${m1.right},${m1.cy} H${midX} V${m2.cy} H${m2.right}` +
+            ` M${midX},${midY} H${parent.left}`
+          );
+        } else {
+          const midX = (m1.left + parent.right) / 2;
+          paths.push(
+            `M${m1.left},${m1.cy} H${midX} V${m2.cy} H${m2.left}` +
+            ` M${midX},${midY} H${parent.right}`
+          );
+        }
+      };
+
+      [[0, 1], [1, 2], [2, 3]].forEach(([from, to]) => {
+        const count = columns[from].matchPairs.length;
+        for (let i = 0; i < count; i += 2)
+          drawBracket(getBox(from, i), getBox(from, i + 1), getBox(to, i / 2), 'left');
+      });
+
+      const sfL = getBox(3, 0);
+      const fin = getBox(4, 0);
+      if (sfL && fin) {
+        const midX = (sfL.right + fin.left) / 2;
+        paths.push(`M${sfL.right},${sfL.cy} H${midX} V${fin.top + fin.h * 0.25} H${fin.left}`);
+      }
+
+      [[8, 7], [7, 6], [6, 5]].forEach(([from, to]) => {
+        const count = columns[from].matchPairs.length;
+        for (let i = 0; i < count; i += 2)
+          drawBracket(getBox(from, i), getBox(from, i + 1), getBox(to, i / 2), 'right');
+      });
+
+      const sfR = getBox(5, 0);
+      if (sfR && fin) {
+        const midX = (fin.right + sfR.left) / 2;
+        paths.push(`M${sfR.left},${sfR.cy} H${midX} V${fin.top + fin.h * 0.75} H${fin.right}`);
+      }
+
+      setSvgPaths(paths);
+    };
+
+    const id = requestAnimationFrame(compute);
+
+    // Recompute whenever the bracket resizes (e.g. notebook sidebar collapses)
+    const ro = new ResizeObserver(() => requestAnimationFrame(compute));
+    if (bracketRef.current) ro.observe(bracketRef.current);
+
+    return () => {
+      cancelAnimationFrame(id);
+      ro.disconnect();
+    };
+  }, [columns, activationKey]);
 
   const winner = bracket?.Winner?.[0];
 
@@ -140,7 +230,12 @@ export default function Slide4Bracket({ active }) {
       </div>
 
       <div className={`s4__zoom-wrap${zoomed ? ' s4__zoom-wrap--zoomed' : ''}`}>
-        <div className="s4__bracket">
+        <div className="s4__bracket" ref={bracketRef}>
+          <svg className="s4__connectors" aria-hidden="true">
+            {svgPaths.map((d, i) => (
+              <path key={i} d={d} stroke="#6f6f6f" strokeWidth="1" fill="none" />
+            ))}
+          </svg>
           {columns.map((col, colIndex) => {
             const span = 8 / col.matchPairs.length;
             return col.matchPairs.map((pair, i) => (
@@ -152,6 +247,10 @@ export default function Slide4Bracket({ active }) {
                 delayMs={col.depth * 150 + i * 15}
                 kind={col.kind}
                 revealed={revealed}
+                boxRef={(el) => {
+                  if (el) boxRefs.current[`${colIndex}-${i}`] = el;
+                  else delete boxRefs.current[`${colIndex}-${i}`];
+                }}
               />
             ));
           })}

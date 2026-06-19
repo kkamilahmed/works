@@ -326,7 +326,10 @@ export default function Slide0Chat({ onAdvanceInstant }) {
     const nbEl  = nbBodyRef.current;
     const secEl = sectionRefs[notebookSection]?.current;
     if (nbEl && secEl) {
-      nbEl.scrollTo({ top: secEl.offsetTop - 16, behavior: 'smooth' });
+      const nbRect  = nbEl.getBoundingClientRect();
+      const secRect = secEl.getBoundingClientRect();
+      const target  = secRect.top - nbRect.top + nbEl.scrollTop - 48;
+      nbEl.scrollTo({ top: Math.max(0, target), behavior: 'smooth' });
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [notebookSection]);
@@ -558,14 +561,14 @@ export default function Slide0Chat({ onAdvanceInstant }) {
 
         {/* Slide preview — fades in during split mode */}
         <div className={`slide0-preview${isSplit ? ' slide0-preview--visible' : ''}`}>
-          {PreviewSlide && <PreviewSlide key={notebookSection} active={isSplit} />}
+          {PreviewSlide && <PreviewSlide key={notebookSection} active={isSplit} shouldZoom={isExpanding} />}
         </div>
       </div>
       </div>{/* end slide0-canvas */}
 
       {/* "Here's what Bob built" card — bridges video → split */}
       <div className={`slide0-title-card${phase === 'title-card' ? ' slide0-title-card--visible' : ''}`}>
-        <p className="slide0-title-card__eyebrow">IBM BOB · Claude Code</p>
+        <p className="slide0-title-card__eyebrow">IBM BOB</p>
         <h2 className="slide0-title-card__heading">Here&apos;s what it built</h2>
         <p className="slide0-title-card__sub">
           FIFA World Cup 2026 · Jupyter Notebook · 50,000 Monte Carlo simulations

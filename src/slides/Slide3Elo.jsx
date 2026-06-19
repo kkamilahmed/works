@@ -3,7 +3,7 @@ import { CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YA
 import useJsonData from '../hooks/useJsonData';
 
 const MIN_HISTORY_POINTS = 5;
-const MAX_TEAMS = 10;
+const MAX_TEAMS = 5;
 const DRAW_DURATION_MS = 1400;
 const DRAW_STAGGER_MS = 120;
 
@@ -85,7 +85,7 @@ export default function Slide3Elo({ active }) {
   return (
     <div className="s3">
       <p className="s3__eyebrow">Historical Strength Ratings</p>
-      <h1 className="s3__title">Elo Rating History — Top 10 Nations</h1>
+      <h1 className="s3__title">Elo Rating History — Top 5 Nations</h1>
       <div className="s3__chart" ref={chartRef} key={animKey}>
         <ResponsiveContainer width="100%" height="100%">
           <LineChart data={chartData} margin={{ top: 16, right: 24, left: 0, bottom: 0 }}>
