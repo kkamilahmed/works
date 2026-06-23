@@ -1,0 +1,137 @@
+[
+  {
+    "team": "Argentina",
+    "win_probability": 14.39,
+    "elo": 1895.7,
+    "r16_prob": 70.7,
+    "qf_prob": 50.2,
+    "sf_prob": 34.4,
+    "final_prob": 22.5
+  },
+  {
+    "team": "Mexico",
+    "win_probability": 12.31,
+    "elo": 1906.9,
+    "r16_prob": 67.4,
+    "qf_prob": 45.3,
+    "sf_prob": 29.7,
+    "final_prob": 19.4
+  },
+  {
+    "team": "Spain",
+    "win_probability": 9.54,
+    "elo": 1863.1,
+    "r16_prob": 67.2,
+    "qf_prob": 43.6,
+    "sf_prob": 27.0,
+    "final_prob": 16.4
+  },
+  {
+    "team": "France",
+    "win_probability": 6.86,
+    "elo": 1858.1,
+    "r16_prob": 62.9,
+    "qf_prob": 39.0,
+    "sf_prob": 23.2,
+    "final_prob": 13.0
+  },
+  {
+    "team": "Germany",
+    "win_probability": 6.55,
+    "elo": 1808.0,
+    "r16_prob": 64.1,
+    "qf_prob": 39.2,
+    "sf_prob": 23.0,
+    "final_prob": 12.7
+  },
+  {
+    "team": "England",
+    "win_probability": 4.46,
+    "elo": 1832.8,
+    "r16_prob": 42.5,
+    "qf_prob": 25.8,
+    "sf_prob": 14.8,
+    "final_prob": 8.1
+  },
+  {
+    "team": "Colombia",
+    "win_probability": 4.17,
+    "elo": 1817.3,
+    "r16_prob": 53.6,
+    "qf_prob": 30.4,
+    "sf_prob": 16.7,
+    "final_prob": 8.5
+  },
+  {
+    "team": "Japan",
+    "win_probability": 4.17,
+    "elo": 1813.1,
+    "r16_prob": 59.6,
+    "qf_prob": 33.0,
+    "sf_prob": 17.4,
+    "final_prob": 8.6
+  },
+  {
+    "team": "Brazil",
+    "win_probability": 3.73,
+    "elo": 1810.0,
+    "r16_prob": 58.2,
+    "qf_prob": 31.4,
+    "sf_prob": 15.6,
+    "final_prob": 7.9
+  },
+  {
+    "team": "Norway",
+    "win_probability": 3.23,
+    "elo": 1793.2,
+    "r16_prob": 54.2,
+    "qf_prob": 30.1,
+    "sf_prob": 15.8,
+    "final_prob": 7.6
+  },
+  {
+    "team": "Belgium",
+    "win_probability": 2.95,
+    "elo": 1769.7,
+    "r16_prob": 51.6,
+    "qf_prob": 28.1,
+    "sf_prob": 14.1,
+    "final_prob": 7.1
+  },
+  {
+    "team": "Portugal",
+    "win_probability": 2.68,
+    "elo": 1792.6,
+    "r16_prob": 52.4,
+    "qf_prob": 27.5,
+    "sf_prob": 12.9,
+    "final_prob": 6.1
+  },
+  {
+    "team": "USA",
+    "win_probability": 2.68,
+    "elo": 1809.6,
+    "r16_prob": 54.9,
+    "qf_prob": 28.8,
+    "sf_prob": 14.3,
+    "final_prob": 6.4
+  },
+  {
+    "team": "Iran",
+    "win_probability": 2.64,
+    "elo": 1783.0,
+    "r16_prob": 47.5,
+    "qf_prob": 24.3,
+    "sf_prob": 12.3,
+    "final_prob": 5.4
+  },
+  {
+    "team": "Algeria",
+    "win_probability": 2.64,
+    "elo": 1781.7,
+    "r16_prob": 52.6,
+    "qf_prob": 27.4,
+    "sf_prob": 13.7,
+    "final_prob": 6.2
+  }
+]

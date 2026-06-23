@@ -1,314 +1,314 @@
 {
   "A": [
     {
-      "team": "Mexico",
-      "rank": 1,
-      "avgPoints": 7.16,
-      "qualPercent": 97.3
-    },
-    {
-      "team": "South Korea",
-      "rank": 2,
-      "avgPoints": 4.94,
-      "qualPercent": 83.9
-    },
-    {
-      "team": "South Africa",
-      "rank": 3,
-      "avgPoints": 3.57,
-      "qualPercent": 66
-    },
-    {
-      "team": "Czechia",
-      "rank": 4,
-      "avgPoints": 1.53,
-      "qualPercent": 20.5
-    }
-  ],
-  "B": [
-    {
-      "team": "Canada",
-      "rank": 1,
-      "avgPoints": 7,
-      "qualPercent": 96.7
-    },
-    {
-      "team": "Switzerland",
-      "rank": 2,
-      "avgPoints": 5.43,
-      "qualPercent": 86.9
-    },
-    {
-      "team": "Bosnia and Herzegovina",
-      "rank": 3,
-      "avgPoints": 2.6,
-      "qualPercent": 39.5
-    },
-    {
-      "team": "Qatar",
-      "rank": 4,
-      "avgPoints": 2.13,
-      "qualPercent": 34.4
-    }
-  ],
-  "C": [
-    {
-      "team": "Morocco",
-      "rank": 1,
-      "avgPoints": 6.25,
-      "qualPercent": 92.8
-    },
-    {
       "team": "Brazil",
-      "rank": 2,
-      "avgPoints": 5.82,
-      "qualPercent": 88.4
-    },
-    {
-      "team": "Haiti",
-      "rank": 3,
-      "avgPoints": 2.66,
-      "qualPercent": 43.2
-    },
-    {
-      "team": "Scotland",
-      "rank": 4,
-      "avgPoints": 2.38,
-      "qualPercent": 38.3
-    }
-  ],
-  "D": [
-    {
-      "team": "USA",
       "rank": 1,
-      "avgPoints": 5.36,
-      "qualPercent": 85.9
-    },
-    {
-      "team": "Australia",
-      "rank": 2,
-      "avgPoints": 4.3,
-      "qualPercent": 68.4
-    },
-    {
-      "team": "Turkey",
-      "rank": 3,
-      "avgPoints": 3.95,
-      "qualPercent": 65.7
-    },
-    {
-      "team": "Paraguay",
-      "rank": 4,
-      "avgPoints": 3.16,
-      "qualPercent": 52.5
-    }
-  ],
-  "E": [
-    {
-      "team": "Germany",
-      "rank": 1,
-      "avgPoints": 5.8,
-      "qualPercent": 90
-    },
-    {
-      "team": "Ivory Coast",
-      "rank": 2,
-      "avgPoints": 5.04,
-      "qualPercent": 82.2
+      "avgPoints": 8.17,
+      "qualPercent": 99.3
     },
     {
       "team": "Ecuador",
+      "rank": 2,
+      "avgPoints": 7.08,
+      "qualPercent": 112.8
+    },
+    {
+      "team": "Mexico",
       "rank": 3,
-      "avgPoints": 4.58,
-      "qualPercent": 75.7
+      "avgPoints": 6.2,
+      "qualPercent": 94.2
     },
     {
       "team": "Curacao",
       "rank": 4,
-      "avgPoints": 1.57,
-      "qualPercent": 21.5
+      "avgPoints": 1.6,
+      "qualPercent": 10.8
     }
   ],
-  "F": [
+  "B": [
     {
-      "team": "Japan",
+      "team": "Panama",
       "rank": 1,
-      "avgPoints": 6.08,
-      "qualPercent": 91.5
+      "avgPoints": 7.77,
+      "qualPercent": 132.2
     },
     {
-      "team": "Netherlands",
+      "team": "USA",
       "rank": 2,
-      "avgPoints": 5.49,
-      "qualPercent": 86.9
+      "avgPoints": 6.55,
+      "qualPercent": 95.3
     },
     {
-      "team": "Tunisia",
+      "team": "Paraguay",
       "rank": 3,
-      "avgPoints": 3.05,
-      "qualPercent": 52
+      "avgPoints": 4.78,
+      "qualPercent": 89.6
     },
     {
-      "team": "Sweden",
+      "team": "Turkiye",
       "rank": 4,
-      "avgPoints": 2.45,
-      "qualPercent": 42.3
+      "avgPoints": 0.92,
+      "qualPercent": 9.4
     }
   ],
-  "G": [
+  "C": [
     {
-      "team": "Belgium",
+      "team": "Argentina",
       "rank": 1,
-      "avgPoints": 5.53,
-      "qualPercent": 85.7
-    },
-    {
-      "team": "Iran",
-      "rank": 2,
-      "avgPoints": 5.13,
-      "qualPercent": 82.9
-    },
-    {
-      "team": "Egypt",
-      "rank": 3,
-      "avgPoints": 4.41,
-      "qualPercent": 73.3
-    },
-    {
-      "team": "New Zealand",
-      "rank": 4,
-      "avgPoints": 1.9,
-      "qualPercent": 27.4
-    }
-  ],
-  "H": [
-    {
-      "team": "Spain",
-      "rank": 1,
-      "avgPoints": 7.34,
-      "qualPercent": 97.9
+      "avgPoints": 7.36,
+      "qualPercent": 98.7
     },
     {
       "team": "Uruguay",
       "rank": 2,
-      "avgPoints": 3.98,
-      "qualPercent": 68.8
+      "avgPoints": 6.23,
+      "qualPercent": 96.6
     },
     {
-      "team": "Saudi Arabia",
+      "team": "Costa Rica",
       "rank": 3,
-      "avgPoints": 2.98,
-      "qualPercent": 51.6
+      "avgPoints": 3.19,
+      "qualPercent": 60.6
     },
     {
-      "team": "Cape Verde",
+      "team": "Bolivia",
       "rank": 4,
-      "avgPoints": 2.8,
-      "qualPercent": 45
+      "avgPoints": 1.09,
+      "qualPercent": 14.2
     }
   ],
-  "I": [
+  "D": [
     {
       "team": "France",
       "rank": 1,
-      "avgPoints": 5.9,
-      "qualPercent": 89.3
-    },
-    {
-      "team": "Senegal",
-      "rank": 2,
-      "avgPoints": 4.77,
-      "qualPercent": 80.1
-    },
-    {
-      "team": "Norway",
-      "rank": 3,
-      "avgPoints": 3.72,
-      "qualPercent": 61.6
-    },
-    {
-      "team": "Iraq",
-      "rank": 4,
-      "avgPoints": 2.53,
-      "qualPercent": 39.8
-    }
-  ],
-  "J": [
-    {
-      "team": "Argentina",
-      "rank": 1,
-      "avgPoints": 6.29,
-      "qualPercent": 91.3
+      "avgPoints": 6.21,
+      "qualPercent": 93.8
     },
     {
       "team": "Algeria",
       "rank": 2,
-      "avgPoints": 5.17,
-      "qualPercent": 81.7
+      "avgPoints": 5.37,
+      "qualPercent": 88.2
     },
     {
-      "team": "Austria",
+      "team": "Iraq",
       "rank": 3,
-      "avgPoints": 3.4,
-      "qualPercent": 53.2
+      "avgPoints": 2.67,
+      "qualPercent": 45.9
     },
     {
       "team": "Jordan",
       "rank": 4,
-      "avgPoints": 2.19,
-      "qualPercent": 32.8
+      "avgPoints": 2.34,
+      "qualPercent": 37.9
     }
   ],
-  "K": [
+  "E": [
+    {
+      "team": "Spain",
+      "rank": 1,
+      "avgPoints": 8.56,
+      "qualPercent": 99.2
+    },
+    {
+      "team": "Belgium",
+      "rank": 2,
+      "avgPoints": 4.46,
+      "qualPercent": 84.0
+    },
+    {
+      "team": "Iran",
+      "rank": 3,
+      "avgPoints": 4.33,
+      "qualPercent": 79.5
+    },
+    {
+      "team": "Cape Verde",
+      "rank": 4,
+      "avgPoints": 2.44,
+      "qualPercent": 25.7
+    }
+  ],
+  "F": [
+    {
+      "team": "Panama",
+      "rank": 1,
+      "avgPoints": 7.77,
+      "qualPercent": 132.2
+    },
     {
       "team": "Portugal",
-      "rank": 1,
-      "avgPoints": 5.54,
-      "qualPercent": 86.9
-    },
-    {
-      "team": "Colombia",
       "rank": 2,
-      "avgPoints": 4.53,
-      "qualPercent": 71.4
+      "avgPoints": 5.98,
+      "qualPercent": 90.2
     },
     {
-      "team": "DR Congo",
+      "team": "Croatia",
       "rank": 3,
-      "avgPoints": 3.42,
-      "qualPercent": 55.3
+      "avgPoints": 4.01,
+      "qualPercent": 67.2
     },
     {
       "team": "Uzbekistan",
       "rank": 4,
-      "avgPoints": 3.32,
-      "qualPercent": 56.3
+      "avgPoints": 3.64,
+      "qualPercent": 61.9
     }
   ],
-  "L": [
+  "G": [
+    {
+      "team": "Ecuador",
+      "rank": 1,
+      "avgPoints": 7.08,
+      "qualPercent": 112.8
+    },
+    {
+      "team": "Germany",
+      "rank": 2,
+      "avgPoints": 6.53,
+      "qualPercent": 97.5
+    },
+    {
+      "team": "Ivory Coast",
+      "rank": 3,
+      "avgPoints": 3.34,
+      "qualPercent": 57.3
+    },
+    {
+      "team": "Australia",
+      "rank": 4,
+      "avgPoints": 3.33,
+      "qualPercent": 54.4
+    }
+  ],
+  "H": [
+    {
+      "team": "Japan",
+      "rank": 1,
+      "avgPoints": 6.61,
+      "qualPercent": 99.7
+    },
+    {
+      "team": "Netherlands",
+      "rank": 2,
+      "avgPoints": 6.37,
+      "qualPercent": 99.2
+    },
+    {
+      "team": "Sweden",
+      "rank": 3,
+      "avgPoints": 2.66,
+      "qualPercent": 34.0
+    },
+    {
+      "team": "Tunisia",
+      "rank": 4,
+      "avgPoints": 1.37,
+      "qualPercent": 11.5
+    }
+  ],
+  "I": [
+    {
+      "team": "Egypt",
+      "rank": 1,
+      "avgPoints": 6.69,
+      "qualPercent": 96.4
+    },
     {
       "team": "England",
-      "rank": 1,
-      "avgPoints": 6.54,
-      "qualPercent": 93.5
-    },
-    {
-      "team": "Croatia",
       "rank": 2,
-      "avgPoints": 4.71,
-      "qualPercent": 77.5
+      "avgPoints": 5.7,
+      "qualPercent": 88.8
     },
     {
-      "team": "Panama",
+      "team": "Nigeria",
       "rank": 3,
-      "avgPoints": 3.65,
-      "qualPercent": 61.4
+      "avgPoints": 4.93,
+      "qualPercent": 80.9
     },
     {
       "team": "Ghana",
       "rank": 4,
-      "avgPoints": 2.16,
-      "qualPercent": 32.9
+      "avgPoints": 1.89,
+      "qualPercent": 21.0
+    }
+  ],
+  "J": [
+    {
+      "team": "Colombia",
+      "rank": 1,
+      "avgPoints": 6.51,
+      "qualPercent": 95.6
+    },
+    {
+      "team": "Switzerland",
+      "rank": 2,
+      "avgPoints": 6.0,
+      "qualPercent": 94.2
+    },
+    {
+      "team": "Congo DR",
+      "rank": 3,
+      "avgPoints": 2.15,
+      "qualPercent": 36.2
+    },
+    {
+      "team": "Qatar",
+      "rank": 4,
+      "avgPoints": 2.11,
+      "qualPercent": 33.5
+    }
+  ],
+  "K": [
+    {
+      "team": "Norway",
+      "rank": 1,
+      "avgPoints": 6.65,
+      "qualPercent": 96.0
+    },
+    {
+      "team": "Senegal",
+      "rank": 2,
+      "avgPoints": 5.64,
+      "qualPercent": 91.6
+    },
+    {
+      "team": "New Zealand",
+      "rank": 3,
+      "avgPoints": 3.07,
+      "qualPercent": 44.2
+    },
+    {
+      "team": "Bosnia and Herzegovina",
+      "rank": 4,
+      "avgPoints": 1.46,
+      "qualPercent": 20.1
+    }
+  ],
+  "L": [
+    {
+      "team": "Austria",
+      "rank": 1,
+      "avgPoints": 6.29,
+      "qualPercent": 93.3
+    },
+    {
+      "team": "Saudi Arabia",
+      "rank": 2,
+      "avgPoints": 4.45,
+      "qualPercent": 70.5
+    },
+    {
+      "team": "Ukraine",
+      "rank": 3,
+      "avgPoints": 3.62,
+      "qualPercent": 62.7
+    },
+    {
+      "team": "Serbia",
+      "rank": 4,
+      "avgPoints": 2.18,
+      "qualPercent": 34.1
     }
   ]
 }
