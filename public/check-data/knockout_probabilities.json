@@ -1,1070 +1,782 @@
 {
   "R32": [
     {
-      "team": "Panama",
-      "probability": 151.44
-    },
-    {
-      "team": "Ecuador",
-      "probability": 149.31
-    },
-    {
-      "team": "Japan",
-      "probability": 99.8
-    },
-    {
-      "team": "Netherlands",
-      "probability": 99.69
-    },
-    {
-      "team": "Spain",
-      "probability": 99.24
-    },
-    {
-      "team": "Argentina",
-      "probability": 99.13
-    },
-    {
-      "team": "Brazil",
-      "probability": 99.04
-    },
-    {
-      "team": "Uruguay",
-      "probability": 98.1
-    },
-    {
-      "team": "Germany",
-      "probability": 97.92
-    },
-    {
-      "team": "Paraguay",
-      "probability": 97.8
-    },
-    {
-      "team": "USA",
-      "probability": 97.49
-    },
-    {
       "team": "Mexico",
-      "probability": 96.26
+      "probability": 100.0
     },
     {
-      "team": "France",
-      "probability": 96.02
-    },
-    {
-      "team": "Algeria",
-      "probability": 93.37
-    },
-    {
-      "team": "Portugal",
-      "probability": 93.19
-    },
-    {
-      "team": "Norway",
-      "probability": 89.87
-    },
-    {
-      "team": "Colombia",
-      "probability": 89.13
-    },
-    {
-      "team": "Belgium",
-      "probability": 87.66
-    },
-    {
-      "team": "Austria",
-      "probability": 86.35
+      "team": "South Africa",
+      "probability": 100.0
     },
     {
       "team": "Switzerland",
-      "probability": 85.68
+      "probability": 100.0
     },
     {
-      "team": "Iran",
-      "probability": 84.24
+      "team": "Canada",
+      "probability": 100.0
     },
     {
-      "team": "Senegal",
-      "probability": 82.77
+      "team": "Brazil",
+      "probability": 100.0
     },
     {
-      "team": "Egypt",
-      "probability": 80.79
+      "team": "Morocco",
+      "probability": 100.0
     },
     {
-      "team": "Costa Rica",
-      "probability": 78.99
-    },
-    {
-      "team": "Croatia",
-      "probability": 74.36
-    },
-    {
-      "team": "Uzbekistan",
-      "probability": 72.31
-    },
-    {
-      "team": "Sweden",
-      "probability": 71.01
-    },
-    {
-      "team": "Ivory Coast",
-      "probability": 65.55
-    },
-    {
-      "team": "England",
-      "probability": 64.95
+      "team": "USA",
+      "probability": 100.0
     },
     {
       "team": "Australia",
-      "probability": 62.92
+      "probability": 100.0
     },
     {
-      "team": "Iraq",
-      "probability": 59.86
+      "team": "Germany",
+      "probability": 100.0
     },
     {
-      "team": "Jordan",
-      "probability": 50.75
+      "team": "Ivory Coast",
+      "probability": 100.0
     },
     {
-      "team": "Saudi Arabia",
-      "probability": 49.79
+      "team": "Netherlands",
+      "probability": 100.0
     },
     {
-      "team": "Nigeria",
-      "probability": 46.71
+      "team": "Japan",
+      "probability": 100.0
     },
     {
-      "team": "Ukraine",
-      "probability": 44.31
+      "team": "Belgium",
+      "probability": 100.0
     },
     {
-      "team": "Tunisia",
-      "probability": 29.5
+      "team": "Egypt",
+      "probability": 100.0
     },
     {
-      "team": "Curacao",
-      "probability": 29.0
+      "team": "Spain",
+      "probability": 100.0
     },
     {
       "team": "Cape Verde",
-      "probability": 28.86
+      "probability": 100.0
     },
     {
-      "team": "Bolivia",
-      "probability": 23.78
+      "team": "France",
+      "probability": 100.0
     },
     {
-      "team": "Serbia",
-      "probability": 19.55
+      "team": "Norway",
+      "probability": 100.0
     },
     {
-      "team": "New Zealand",
-      "probability": 18.74
+      "team": "Argentina",
+      "probability": 100.0
     },
     {
-      "team": "Qatar",
-      "probability": 13.63
+      "team": "Austria",
+      "probability": 100.0
     },
     {
-      "team": "Turkiye",
-      "probability": 13.41
+      "team": "Colombia",
+      "probability": 100.0
     },
     {
-      "team": "Congo DR",
-      "probability": 11.56
+      "team": "Portugal",
+      "probability": 100.0
+    },
+    {
+      "team": "England",
+      "probability": 100.0
+    },
+    {
+      "team": "Croatia",
+      "probability": 100.0
     },
     {
       "team": "Bosnia and Herzegovina",
-      "probability": 8.62
+      "probability": 100.0
     },
     {
-      "team": "Ghana",
-      "probability": 7.55
+      "team": "Ecuador",
+      "probability": 100.0
+    },
+    {
+      "team": "Iran",
+      "probability": 100.0
+    },
+    {
+      "team": "Paraguay",
+      "probability": 100.0
+    },
+    {
+      "team": "Scotland",
+      "probability": 100.0
+    },
+    {
+      "team": "South Korea",
+      "probability": 100.0
+    },
+    {
+      "team": "Sweden",
+      "probability": 100.0
+    },
+    {
+      "team": "Uruguay",
+      "probability": 100.0
     }
   ],
   "R16": [
     {
-      "team": "Ecuador",
-      "probability": 72.75
-    },
-    {
       "team": "Argentina",
-      "probability": 70.68
+      "probability": 70.85
     },
     {
       "team": "Mexico",
-      "probability": 67.37
+      "probability": 69.07
     },
     {
       "team": "Spain",
-      "probability": 67.15
-    },
-    {
-      "team": "Germany",
-      "probability": 64.07
+      "probability": 67.71
     },
     {
       "team": "France",
-      "probability": 62.9
-    },
-    {
-      "team": "Japan",
-      "probability": 59.63
+      "probability": 67.51
     },
     {
       "team": "Brazil",
-      "probability": 58.18
+      "probability": 66.25
     },
     {
-      "team": "Panama",
-      "probability": 55.36
-    },
-    {
-      "team": "USA",
-      "probability": 54.93
-    },
-    {
-      "team": "Norway",
-      "probability": 54.24
-    },
-    {
-      "team": "Netherlands",
-      "probability": 53.75
-    },
-    {
-      "team": "Colombia",
-      "probability": 53.6
-    },
-    {
-      "team": "Algeria",
-      "probability": 52.62
-    },
-    {
-      "team": "Portugal",
-      "probability": 52.41
-    },
-    {
-      "team": "Belgium",
-      "probability": 51.59
-    },
-    {
-      "team": "Austria",
-      "probability": 47.97
-    },
-    {
-      "team": "Iran",
-      "probability": 47.5
-    },
-    {
-      "team": "Uruguay",
-      "probability": 44.07
-    },
-    {
-      "team": "Switzerland",
-      "probability": 43.67
+      "team": "Morocco",
+      "probability": 66.15
     },
     {
       "team": "England",
-      "probability": 42.5
+      "probability": 61.07
     },
     {
-      "team": "Senegal",
-      "probability": 39.11
+      "team": "Portugal",
+      "probability": 58.57
     },
     {
-      "team": "Egypt",
-      "probability": 38.9
+      "team": "Canada",
+      "probability": 58.28
+    },
+    {
+      "team": "Netherlands",
+      "probability": 57.62
+    },
+    {
+      "team": "Colombia",
+      "probability": 57.59
+    },
+    {
+      "team": "Japan",
+      "probability": 57.44
+    },
+    {
+      "team": "Belgium",
+      "probability": 56.78
+    },
+    {
+      "team": "Germany",
+      "probability": 53.42
     },
     {
       "team": "Ivory Coast",
-      "probability": 37.33
+      "probability": 52.52
     },
     {
-      "team": "Australia",
-      "probability": 32.14
+      "team": "USA",
+      "probability": 51.28
+    },
+    {
+      "team": "Iran",
+      "probability": 50.74
+    },
+    {
+      "team": "Switzerland",
+      "probability": 49.59
+    },
+    {
+      "team": "Ecuador",
+      "probability": 49.03
+    },
+    {
+      "team": "Austria",
+      "probability": 48.4
+    },
+    {
+      "team": "Norway",
+      "probability": 48.33
+    },
+    {
+      "team": "Egypt",
+      "probability": 47.66
     },
     {
       "team": "Croatia",
-      "probability": 30.99
+      "probability": 43.57
+    },
+    {
+      "team": "Australia",
+      "probability": 43.08
+    },
+    {
+      "team": "South Korea",
+      "probability": 42.82
+    },
+    {
+      "team": "Uruguay",
+      "probability": 36.11
     },
     {
       "team": "Paraguay",
-      "probability": 30.47
-    },
-    {
-      "team": "Uzbekistan",
-      "probability": 29.29
-    },
-    {
-      "team": "Nigeria",
-      "probability": 26.25
+      "probability": 32.1
     },
     {
       "team": "Sweden",
-      "probability": 26.07
+      "probability": 30.46
     },
     {
-      "team": "Costa Rica",
-      "probability": 20.11
-    },
-    {
-      "team": "Iraq",
-      "probability": 20.07
-    },
-    {
-      "team": "Jordan",
-      "probability": 16.7
-    },
-    {
-      "team": "Saudi Arabia",
-      "probability": 16.34
-    },
-    {
-      "team": "Ukraine",
-      "probability": 13.82
-    },
-    {
-      "team": "Tunisia",
-      "probability": 9.66
+      "team": "Scotland",
+      "probability": 30.2
     },
     {
       "team": "Cape Verde",
-      "probability": 8.25
+      "probability": 27.8
     },
     {
-      "team": "New Zealand",
-      "probability": 5.3
-    },
-    {
-      "team": "Curacao",
-      "probability": 4.68
-    },
-    {
-      "team": "Serbia",
-      "probability": 4.52
-    },
-    {
-      "team": "Bolivia",
-      "probability": 2.88
-    },
-    {
-      "team": "Qatar",
-      "probability": 2.35
-    },
-    {
-      "team": "Turkiye",
-      "probability": 2.21
-    },
-    {
-      "team": "Ghana",
-      "probability": 2.18
-    },
-    {
-      "team": "Congo DR",
-      "probability": 1.87
+      "team": "South Africa",
+      "probability": 27.56
     },
     {
       "team": "Bosnia and Herzegovina",
-      "probability": 1.57
+      "probability": 20.44
     }
   ],
   "QF": [
     {
       "team": "Argentina",
-      "probability": 50.25
+      "probability": 48.87
     },
     {
       "team": "Mexico",
-      "probability": 45.34
+      "probability": 46.32
     },
     {
       "team": "Spain",
-      "probability": 43.62
-    },
-    {
-      "team": "Germany",
-      "probability": 39.22
+      "probability": 44.54
     },
     {
       "team": "France",
-      "probability": 39.02
-    },
-    {
-      "team": "Japan",
-      "probability": 32.96
-    },
-    {
-      "team": "Ecuador",
-      "probability": 32.66
+      "probability": 43.46
     },
     {
       "team": "Brazil",
-      "probability": 31.42
+      "probability": 42.76
     },
     {
-      "team": "Colombia",
-      "probability": 30.39
-    },
-    {
-      "team": "Norway",
-      "probability": 30.13
-    },
-    {
-      "team": "USA",
-      "probability": 28.78
-    },
-    {
-      "team": "Belgium",
-      "probability": 28.08
-    },
-    {
-      "team": "Portugal",
-      "probability": 27.46
-    },
-    {
-      "team": "Algeria",
-      "probability": 27.36
-    },
-    {
-      "team": "Netherlands",
-      "probability": 26.81
+      "team": "Morocco",
+      "probability": 41.52
     },
     {
       "team": "England",
-      "probability": 25.78
+      "probability": 34.59
     },
     {
-      "team": "Austria",
-      "probability": 25.5
+      "team": "Canada",
+      "probability": 31.83
     },
     {
-      "team": "Iran",
-      "probability": 24.35
+      "team": "Portugal",
+      "probability": 31.65
     },
     {
-      "team": "Switzerland",
-      "probability": 19.94
+      "team": "Japan",
+      "probability": 31.29
+    },
+    {
+      "team": "Colombia",
+      "probability": 30.65
+    },
+    {
+      "team": "Netherlands",
+      "probability": 30.56
+    },
+    {
+      "team": "Belgium",
+      "probability": 29.7
+    },
+    {
+      "team": "Germany",
+      "probability": 26.68
     },
     {
       "team": "Ivory Coast",
-      "probability": 19.71
+      "probability": 25.54
     },
     {
-      "team": "Panama",
-      "probability": 18.36
+      "team": "USA",
+      "probability": 24.37
     },
     {
-      "team": "Uruguay",
-      "probability": 18.14
+      "team": "Iran",
+      "probability": 23.61
     },
     {
-      "team": "Senegal",
-      "probability": 17.35
+      "team": "Switzerland",
+      "probability": 22.39
+    },
+    {
+      "team": "Ecuador",
+      "probability": 21.97
+    },
+    {
+      "team": "Austria",
+      "probability": 21.4
+    },
+    {
+      "team": "Norway",
+      "probability": 20.89
     },
     {
       "team": "Egypt",
-      "probability": 16.99
-    },
-    {
-      "team": "Australia",
-      "probability": 14.66
-    },
-    {
-      "team": "Nigeria",
-      "probability": 13.4
+      "probability": 19.68
     },
     {
       "team": "Croatia",
-      "probability": 11.16
+      "probability": 17.04
     },
     {
-      "team": "Uzbekistan",
-      "probability": 10.92
+      "team": "South Korea",
+      "probability": 16.88
+    },
+    {
+      "team": "Australia",
+      "probability": 16.52
+    },
+    {
+      "team": "Uruguay",
+      "probability": 11.4
     },
     {
       "team": "Paraguay",
-      "probability": 8.62
+      "probability": 9.37
     },
     {
       "team": "Sweden",
+      "probability": 8.42
+    },
+    {
+      "team": "Scotland",
       "probability": 8.39
     },
     {
-      "team": "Iraq",
-      "probability": 5.88
-    },
-    {
-      "team": "Costa Rica",
-      "probability": 4.72
-    },
-    {
-      "team": "Jordan",
-      "probability": 4.66
-    },
-    {
-      "team": "Saudi Arabia",
-      "probability": 4.52
-    },
-    {
-      "team": "Ukraine",
-      "probability": 4.0
-    },
-    {
-      "team": "Tunisia",
-      "probability": 2.51
-    },
-    {
       "team": "Cape Verde",
-      "probability": 2.19
+      "probability": 7.23
     },
     {
-      "team": "New Zealand",
-      "probability": 1.16
-    },
-    {
-      "team": "Serbia",
-      "probability": 0.81
-    },
-    {
-      "team": "Curacao",
-      "probability": 0.64
-    },
-    {
-      "team": "Ghana",
-      "probability": 0.62
-    },
-    {
-      "team": "Qatar",
-      "probability": 0.36
-    },
-    {
-      "team": "Turkiye",
-      "probability": 0.33
+      "team": "South Africa",
+      "probability": 6.58
     },
     {
       "team": "Bosnia and Herzegovina",
-      "probability": 0.29
-    },
-    {
-      "team": "Congo DR",
-      "probability": 0.27
-    },
-    {
-      "team": "Bolivia",
-      "probability": 0.27
+      "probability": 3.9
     }
   ],
   "SF": [
     {
       "team": "Argentina",
-      "probability": 34.45
+      "probability": 33.25
     },
     {
       "team": "Mexico",
-      "probability": 29.74
+      "probability": 29.54
     },
     {
       "team": "Spain",
-      "probability": 27.02
+      "probability": 27.88
     },
     {
       "team": "France",
-      "probability": 23.19
-    },
-    {
-      "team": "Germany",
-      "probability": 23.02
-    },
-    {
-      "team": "Japan",
-      "probability": 17.43
-    },
-    {
-      "team": "Colombia",
-      "probability": 16.7
-    },
-    {
-      "team": "Norway",
-      "probability": 15.76
+      "probability": 27.25
     },
     {
       "team": "Brazil",
-      "probability": 15.58
+      "probability": 26.36
+    },
+    {
+      "team": "Morocco",
+      "probability": 25.24
     },
     {
       "team": "England",
-      "probability": 14.83
+      "probability": 18.65
     },
     {
-      "team": "USA",
-      "probability": 14.26
-    },
-    {
-      "team": "Belgium",
-      "probability": 14.14
-    },
-    {
-      "team": "Algeria",
-      "probability": 13.67
-    },
-    {
-      "team": "Ecuador",
-      "probability": 13.41
+      "team": "Canada",
+      "probability": 16.47
     },
     {
       "team": "Portugal",
-      "probability": 12.91
+      "probability": 16.02
     },
     {
-      "team": "Iran",
-      "probability": 12.33
-    },
-    {
-      "team": "Austria",
-      "probability": 12.09
+      "team": "Japan",
+      "probability": 15.65
     },
     {
       "team": "Netherlands",
-      "probability": 11.9
+      "probability": 15.17
+    },
+    {
+      "team": "Colombia",
+      "probability": 15.14
+    },
+    {
+      "team": "Belgium",
+      "probability": 14.31
+    },
+    {
+      "team": "Germany",
+      "probability": 12.35
     },
     {
       "team": "Ivory Coast",
-      "probability": 10.1
+      "probability": 11.0
+    },
+    {
+      "team": "Iran",
+      "probability": 10.41
+    },
+    {
+      "team": "USA",
+      "probability": 10.21
     },
     {
       "team": "Switzerland",
-      "probability": 8.63
+      "probability": 9.5
     },
     {
-      "team": "Senegal",
-      "probability": 7.0
+      "team": "Ecuador",
+      "probability": 9.25
+    },
+    {
+      "team": "Austria",
+      "probability": 8.35
+    },
+    {
+      "team": "Norway",
+      "probability": 7.99
     },
     {
       "team": "Egypt",
-      "probability": 6.99
+      "probability": 7.92
     },
     {
-      "team": "Uruguay",
-      "probability": 6.78
-    },
-    {
-      "team": "Nigeria",
-      "probability": 6.46
-    },
-    {
-      "team": "Australia",
-      "probability": 6.37
-    },
-    {
-      "team": "Panama",
-      "probability": 5.51
+      "team": "South Korea",
+      "probability": 6.19
     },
     {
       "team": "Croatia",
-      "probability": 3.73
+      "probability": 6.15
     },
     {
-      "team": "Uzbekistan",
-      "probability": 3.66
+      "team": "Australia",
+      "probability": 5.9
     },
     {
-      "team": "Sweden",
-      "probability": 2.52
+      "team": "Uruguay",
+      "probability": 3.21
     },
     {
       "team": "Paraguay",
-      "probability": 2.24
+      "probability": 2.52
     },
     {
-      "team": "Iraq",
-      "probability": 1.62
+      "team": "Scotland",
+      "probability": 2.12
     },
     {
-      "team": "Saudi Arabia",
-      "probability": 1.11
-    },
-    {
-      "team": "Jordan",
-      "probability": 1.06
-    },
-    {
-      "team": "Ukraine",
-      "probability": 1.01
-    },
-    {
-      "team": "Costa Rica",
-      "probability": 0.86
+      "team": "Sweden",
+      "probability": 2.11
     },
     {
       "team": "Cape Verde",
-      "probability": 0.63
+      "probability": 1.82
     },
     {
-      "team": "Tunisia",
-      "probability": 0.54
-    },
-    {
-      "team": "New Zealand",
-      "probability": 0.22
-    },
-    {
-      "team": "Serbia",
-      "probability": 0.16
-    },
-    {
-      "team": "Ghana",
-      "probability": 0.16
-    },
-    {
-      "team": "Curacao",
-      "probability": 0.08
-    },
-    {
-      "team": "Turkiye",
-      "probability": 0.05
+      "team": "South Africa",
+      "probability": 1.34
     },
     {
       "team": "Bosnia and Herzegovina",
-      "probability": 0.03
-    },
-    {
-      "team": "Qatar",
-      "probability": 0.03
-    },
-    {
-      "team": "Bolivia",
-      "probability": 0.02
+      "probability": 0.73
     }
   ],
   "Final": [
     {
       "team": "Argentina",
-      "probability": 22.5
+      "probability": 21.43
     },
     {
       "team": "Mexico",
-      "probability": 19.39
-    },
-    {
-      "team": "Spain",
-      "probability": 16.35
+      "probability": 18.1
     },
     {
       "team": "France",
-      "probability": 12.96
+      "probability": 16.69
     },
     {
-      "team": "Germany",
-      "probability": 12.7
-    },
-    {
-      "team": "Japan",
-      "probability": 8.55
-    },
-    {
-      "team": "Colombia",
-      "probability": 8.53
-    },
-    {
-      "team": "England",
-      "probability": 8.1
+      "team": "Spain",
+      "probability": 16.55
     },
     {
       "team": "Brazil",
-      "probability": 7.88
+      "probability": 15.13
     },
     {
-      "team": "Norway",
-      "probability": 7.65
+      "team": "Morocco",
+      "probability": 15.01
     },
     {
-      "team": "Belgium",
-      "probability": 7.06
+      "team": "England",
+      "probability": 9.64
     },
     {
-      "team": "USA",
-      "probability": 6.37
-    },
-    {
-      "team": "Algeria",
-      "probability": 6.18
+      "team": "Canada",
+      "probability": 7.93
     },
     {
       "team": "Portugal",
-      "probability": 6.06
+      "probability": 7.68
     },
     {
-      "team": "Iran",
-      "probability": 5.43
+      "team": "Colombia",
+      "probability": 7.21
     },
     {
-      "team": "Austria",
-      "probability": 5.12
-    },
-    {
-      "team": "Ecuador",
-      "probability": 5.12
+      "team": "Japan",
+      "probability": 7.14
     },
     {
       "team": "Netherlands",
-      "probability": 4.95
+      "probability": 7.09
+    },
+    {
+      "team": "Belgium",
+      "probability": 6.49
+    },
+    {
+      "team": "Germany",
+      "probability": 5.5
     },
     {
       "team": "Ivory Coast",
-      "probability": 4.69
+      "probability": 4.3
     },
     {
-      "team": "Switzerland",
+      "team": "USA",
+      "probability": 4.05
+    },
+    {
+      "team": "Iran",
+      "probability": 4.0
+    },
+    {
+      "team": "Ecuador",
       "probability": 3.73
     },
     {
+      "team": "Austria",
+      "probability": 3.3
+    },
+    {
+      "team": "Switzerland",
+      "probability": 3.27
+    },
+    {
+      "team": "Norway",
+      "probability": 3.15
+    },
+    {
       "team": "Egypt",
-      "probability": 3.11
+      "probability": 3.05
     },
     {
-      "team": "Nigeria",
-      "probability": 2.89
-    },
-    {
-      "team": "Senegal",
-      "probability": 2.67
-    },
-    {
-      "team": "Australia",
-      "probability": 2.54
-    },
-    {
-      "team": "Uruguay",
-      "probability": 2.49
-    },
-    {
-      "team": "Panama",
-      "probability": 1.46
-    },
-    {
-      "team": "Uzbekistan",
-      "probability": 1.22
+      "team": "South Korea",
+      "probability": 2.11
     },
     {
       "team": "Croatia",
-      "probability": 1.12
+      "probability": 2.08
     },
     {
-      "team": "Sweden",
-      "probability": 0.77
+      "team": "Australia",
+      "probability": 2.07
+    },
+    {
+      "team": "Uruguay",
+      "probability": 0.79
     },
     {
       "team": "Paraguay",
-      "probability": 0.57
+      "probability": 0.62
     },
     {
-      "team": "Iraq",
-      "probability": 0.44
+      "team": "Sweden",
+      "probability": 0.52
     },
     {
-      "team": "Saudi Arabia",
-      "probability": 0.27
-    },
-    {
-      "team": "Jordan",
-      "probability": 0.23
-    },
-    {
-      "team": "Ukraine",
-      "probability": 0.19
-    },
-    {
-      "team": "Tunisia",
-      "probability": 0.19
-    },
-    {
-      "team": "Costa Rica",
-      "probability": 0.18
+      "team": "Scotland",
+      "probability": 0.51
     },
     {
       "team": "Cape Verde",
-      "probability": 0.17
+      "probability": 0.42
     },
     {
-      "team": "Serbia",
-      "probability": 0.08
+      "team": "South Africa",
+      "probability": 0.3
     },
     {
-      "team": "New Zealand",
-      "probability": 0.06
-    },
-    {
-      "team": "Ghana",
-      "probability": 0.02
-    },
-    {
-      "team": "Turkiye",
-      "probability": 0.01
+      "team": "Bosnia and Herzegovina",
+      "probability": 0.14
     }
   ],
   "Winner": [
     {
       "team": "Argentina",
-      "probability": 14.39
+      "probability": 13.65
     },
     {
       "team": "Mexico",
-      "probability": 12.31
+      "probability": 11.13
     },
     {
       "team": "Spain",
-      "probability": 9.54
+      "probability": 9.69
     },
     {
       "team": "France",
-      "probability": 6.86
+      "probability": 9.63
     },
     {
-      "team": "Germany",
-      "probability": 6.55
-    },
-    {
-      "team": "England",
-      "probability": 4.46
-    },
-    {
-      "team": "Colombia",
-      "probability": 4.17
-    },
-    {
-      "team": "Japan",
-      "probability": 4.17
+      "team": "Morocco",
+      "probability": 8.28
     },
     {
       "team": "Brazil",
-      "probability": 3.73
+      "probability": 8.24
     },
     {
-      "team": "Norway",
-      "probability": 3.23
+      "team": "England",
+      "probability": 4.8
     },
     {
-      "team": "Belgium",
-      "probability": 2.95
+      "team": "Canada",
+      "probability": 3.66
     },
     {
       "team": "Portugal",
-      "probability": 2.68
+      "probability": 3.4
     },
     {
-      "team": "USA",
-      "probability": 2.68
+      "team": "Japan",
+      "probability": 3.34
     },
     {
-      "team": "Iran",
-      "probability": 2.64
-    },
-    {
-      "team": "Algeria",
-      "probability": 2.64
-    },
-    {
-      "team": "Austria",
-      "probability": 2.46
-    },
-    {
-      "team": "Ivory Coast",
-      "probability": 2.1
+      "team": "Colombia",
+      "probability": 3.1
     },
     {
       "team": "Netherlands",
-      "probability": 2.04
+      "probability": 2.99
     },
     {
-      "team": "Ecuador",
-      "probability": 1.9
+      "team": "Belgium",
+      "probability": 2.86
+    },
+    {
+      "team": "Germany",
+      "probability": 2.02
+    },
+    {
+      "team": "Ivory Coast",
+      "probability": 1.65
+    },
+    {
+      "team": "Iran",
+      "probability": 1.54
+    },
+    {
+      "team": "USA",
+      "probability": 1.44
     },
     {
       "team": "Switzerland",
-      "probability": 1.64
+      "probability": 1.25
     },
     {
-      "team": "Nigeria",
-      "probability": 1.24
+      "team": "Austria",
+      "probability": 1.15
+    },
+    {
+      "team": "Norway",
+      "probability": 1.14
+    },
+    {
+      "team": "Ecuador",
+      "probability": 1.14
     },
     {
       "team": "Egypt",
-      "probability": 1.05
+      "probability": 1.13
     },
     {
       "team": "Australia",
-      "probability": 1.03
-    },
-    {
-      "team": "Uruguay",
-      "probability": 0.88
-    },
-    {
-      "team": "Senegal",
-      "probability": 0.87
-    },
-    {
-      "team": "Panama",
-      "probability": 0.35
-    },
-    {
-      "team": "Uzbekistan",
-      "probability": 0.34
+      "probability": 0.73
     },
     {
       "team": "Croatia",
-      "probability": 0.29
+      "probability": 0.72
     },
     {
-      "team": "Sweden",
-      "probability": 0.24
+      "team": "South Korea",
+      "probability": 0.65
     },
     {
       "team": "Paraguay",
-      "probability": 0.14
+      "probability": 0.16
     },
     {
-      "team": "Iraq",
-      "probability": 0.09
+      "team": "Uruguay",
+      "probability": 0.15
     },
     {
-      "team": "Saudi Arabia",
+      "team": "Scotland",
+      "probability": 0.11
+    },
+    {
+      "team": "Sweden",
       "probability": 0.08
     },
     {
-      "team": "Tunisia",
-      "probability": 0.05
-    },
-    {
-      "team": "Costa Rica",
-      "probability": 0.05
-    },
-    {
-      "team": "Jordan",
-      "probability": 0.05
-    },
-    {
       "team": "Cape Verde",
-      "probability": 0.04
+      "probability": 0.08
     },
     {
-      "team": "Ukraine",
-      "probability": 0.03
+      "team": "South Africa",
+      "probability": 0.07
     },
     {
-      "team": "New Zealand",
+      "team": "Bosnia and Herzegovina",
       "probability": 0.02
-    },
-    {
-      "team": "Serbia",
-      "probability": 0.01
-    },
-    {
-      "team": "Ghana",
-      "probability": 0.01
     }
   ]
 }

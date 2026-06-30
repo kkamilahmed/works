@@ -1,506 +1,506 @@
 {
   "Group A": [
     {
-      "team": "Brazil",
-      "elo": 1810.0,
+      "team": "Mexico",
+      "elo": 1929.7,
+      "current_points": 9,
+      "current_gd": 6,
+      "matches_played": 3,
+      "avg_points_final": 9.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 100.0
+    },
+    {
+      "team": "South Africa",
+      "elo": 1625.4,
+      "current_points": 4,
+      "current_gd": -1,
+      "matches_played": 3,
+      "avg_points_final": 4.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 0.0
+    },
+    {
+      "team": "South Korea",
+      "elo": 1712.5,
       "current_points": 3,
+      "current_gd": -1,
+      "matches_played": 3,
+      "avg_points_final": 3.0,
+      "qualification_prob": 0.0,
+      "group_win_prob": 0.0
+    },
+    {
+      "team": "Czechia",
+      "elo": 1500,
+      "current_points": 1,
+      "current_gd": -4,
+      "matches_played": 3,
+      "avg_points_final": 1.0,
+      "qualification_prob": 0.0,
+      "group_win_prob": 0.0
+    }
+  ],
+  "Group B": [
+    {
+      "team": "Switzerland",
+      "elo": 1787.0,
+      "current_points": 7,
+      "current_gd": 4,
+      "matches_played": 3,
+      "avg_points_final": 7.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 100.0
+    },
+    {
+      "team": "Canada",
+      "elo": 1843.8,
+      "current_points": 4,
+      "current_gd": 5,
+      "matches_played": 3,
+      "avg_points_final": 4.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 0.0
+    },
+    {
+      "team": "Bosnia and Herzegovina",
+      "elo": 1560.4,
+      "current_points": 4,
+      "current_gd": -1,
+      "matches_played": 3,
+      "avg_points_final": 4.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 0.0
+    },
+    {
+      "team": "Qatar",
+      "elo": 1465.0,
+      "current_points": 1,
+      "current_gd": -8,
+      "matches_played": 3,
+      "avg_points_final": 1.0,
+      "qualification_prob": 0.0,
+      "group_win_prob": 0.0
+    }
+  ],
+  "Group C": [
+    {
+      "team": "Brazil",
+      "elo": 1896.0,
+      "current_points": 7,
+      "current_gd": 6,
+      "matches_played": 3,
+      "avg_points_final": 7.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 100.0
+    },
+    {
+      "team": "Morocco",
+      "elo": 1887.0,
+      "current_points": 7,
       "current_gd": 3,
-      "matches_played": 1,
-      "avg_points_final": 8.17,
-      "qualification_prob": 99.3,
-      "group_win_prob": 73.1
+      "matches_played": 3,
+      "avg_points_final": 7.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 0.0
+    },
+    {
+      "team": "Scotland",
+      "elo": 1634.2,
+      "current_points": 3,
+      "current_gd": -3,
+      "matches_played": 3,
+      "avg_points_final": 3.0,
+      "qualification_prob": 0.0,
+      "group_win_prob": 0.0
+    },
+    {
+      "team": "Haiti",
+      "elo": 1580.5,
+      "current_points": 0,
+      "current_gd": -6,
+      "matches_played": 3,
+      "avg_points_final": 0.0,
+      "qualification_prob": 0.0,
+      "group_win_prob": 0.0
+    }
+  ],
+  "Group D": [
+    {
+      "team": "USA",
+      "elo": 1803.9,
+      "current_points": 6,
+      "current_gd": 4,
+      "matches_played": 3,
+      "avg_points_final": 6.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 100.0
+    },
+    {
+      "team": "Australia",
+      "elo": 1739.5,
+      "current_points": 4,
+      "current_gd": 0,
+      "matches_played": 3,
+      "avg_points_final": 4.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 0.0
+    },
+    {
+      "team": "Paraguay",
+      "elo": 1663.8,
+      "current_points": 4,
+      "current_gd": -2,
+      "matches_played": 3,
+      "avg_points_final": 4.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 0.0
+    },
+    {
+      "team": "Turkiye",
+      "elo": 1500,
+      "current_points": 3,
+      "current_gd": -2,
+      "matches_played": 3,
+      "avg_points_final": 3.0,
+      "qualification_prob": 0.0,
+      "group_win_prob": 0.0
+    }
+  ],
+  "Group E": [
+    {
+      "team": "Germany",
+      "elo": 1795.4,
+      "current_points": 6,
+      "current_gd": 6,
+      "matches_played": 3,
+      "avg_points_final": 6.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 100.0
+    },
+    {
+      "team": "Ivory Coast",
+      "elo": 1790.2,
+      "current_points": 6,
+      "current_gd": 2,
+      "matches_played": 3,
+      "avg_points_final": 6.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 0.0
     },
     {
       "team": "Ecuador",
-      "elo": 1735.7,
-      "current_points": 1,
+      "elo": 1770.5,
+      "current_points": 4,
       "current_gd": 0,
-      "matches_played": 1,
-      "avg_points_final": 7.08,
-      "qualification_prob": 112.8,
-      "group_win_prob": 20.8
+      "matches_played": 3,
+      "avg_points_final": 4.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 0.0
     },
     {
       "team": "Curacao",
       "elo": 1500,
       "current_points": 1,
-      "current_gd": 0,
-      "matches_played": 1,
-      "avg_points_final": 1.6,
-      "qualification_prob": 10.8,
-      "group_win_prob": 0.2
-    },
-    {
-      "team": "Mexico",
-      "elo": 1906.9,
-      "current_points": 0,
-      "current_gd": 0,
-      "matches_played": 0,
-      "avg_points_final": 6.2,
-      "qualification_prob": 94.2,
-      "group_win_prob": 23.6
-    }
-  ],
-  "Group B": [
-    {
-      "team": "Paraguay",
-      "elo": 1633.2,
-      "current_points": 3,
-      "current_gd": 1,
-      "matches_played": 1,
-      "avg_points_final": 4.78,
-      "qualification_prob": 89.6,
-      "group_win_prob": 18.9
-    },
-    {
-      "team": "Panama",
-      "elo": 1670.8,
-      "current_points": 0,
-      "current_gd": 0,
-      "matches_played": 0,
-      "avg_points_final": 7.77,
-      "qualification_prob": 132.2,
-      "group_win_prob": 32.1
-    },
-    {
-      "team": "USA",
-      "elo": 1809.6,
-      "current_points": 0,
-      "current_gd": 0,
-      "matches_played": 0,
-      "avg_points_final": 6.55,
-      "qualification_prob": 95.3,
-      "group_win_prob": 59.2
-    },
-    {
-      "team": "Turkiye",
-      "elo": 1500,
-      "current_points": 0,
-      "current_gd": -1,
-      "matches_played": 1,
-      "avg_points_final": 0.92,
-      "qualification_prob": 9.4,
-      "group_win_prob": 0.6
-    }
-  ],
-  "Group C": [
-    {
-      "team": "Uruguay",
-      "elo": 1707.6,
-      "current_points": 1,
-      "current_gd": 0,
-      "matches_played": 1,
-      "avg_points_final": 6.23,
-      "qualification_prob": 96.6,
-      "group_win_prob": 32.2
-    },
-    {
-      "team": "Argentina",
-      "elo": 1895.7,
-      "current_points": 0,
-      "current_gd": 0,
-      "matches_played": 0,
-      "avg_points_final": 7.36,
-      "qualification_prob": 98.7,
-      "group_win_prob": 63.9
-    },
-    {
-      "team": "Costa Rica",
-      "elo": 1609.0,
-      "current_points": 0,
-      "current_gd": 0,
-      "matches_played": 0,
-      "avg_points_final": 3.19,
-      "qualification_prob": 60.6,
-      "group_win_prob": 3.5
-    },
-    {
-      "team": "Bolivia",
-      "elo": 1492.1,
-      "current_points": 0,
-      "current_gd": 0,
-      "matches_played": 0,
-      "avg_points_final": 1.09,
-      "qualification_prob": 14.2,
-      "group_win_prob": 0.5
-    }
-  ],
-  "Group D": [
-    {
-      "team": "France",
-      "elo": 1858.1,
-      "current_points": 0,
-      "current_gd": 0,
-      "matches_played": 0,
-      "avg_points_final": 6.21,
-      "qualification_prob": 93.8,
-      "group_win_prob": 54.9
-    },
-    {
-      "team": "Algeria",
-      "elo": 1781.7,
-      "current_points": 0,
-      "current_gd": 0,
-      "matches_played": 0,
-      "avg_points_final": 5.37,
-      "qualification_prob": 88.2,
-      "group_win_prob": 34.5
-    },
-    {
-      "team": "Iraq",
-      "elo": 1646.4,
-      "current_points": 0,
-      "current_gd": 0,
-      "matches_played": 0,
-      "avg_points_final": 2.67,
-      "qualification_prob": 45.9,
-      "group_win_prob": 6.0
-    },
-    {
-      "team": "Jordan",
-      "elo": 1651.4,
-      "current_points": 0,
-      "current_gd": 0,
-      "matches_played": 0,
-      "avg_points_final": 2.34,
-      "qualification_prob": 37.9,
-      "group_win_prob": 4.6
-    }
-  ],
-  "Group E": [
-    {
-      "team": "Spain",
-      "elo": 1863.1,
-      "current_points": 3,
-      "current_gd": 4,
-      "matches_played": 1,
-      "avg_points_final": 8.56,
-      "qualification_prob": 99.2,
-      "group_win_prob": 86.7
-    },
-    {
-      "team": "Belgium",
-      "elo": 1769.7,
-      "current_points": 1,
-      "current_gd": 0,
-      "matches_played": 1,
-      "avg_points_final": 4.46,
-      "qualification_prob": 84.0,
-      "group_win_prob": 6.6
-    },
-    {
-      "team": "Iran",
-      "elo": 1783.0,
-      "current_points": 1,
-      "current_gd": 0,
-      "matches_played": 1,
-      "avg_points_final": 4.33,
-      "qualification_prob": 79.5,
-      "group_win_prob": 5.5
-    },
-    {
-      "team": "Cape Verde",
-      "elo": 1612.3,
-      "current_points": 1,
-      "current_gd": 0,
-      "matches_played": 1,
-      "avg_points_final": 2.44,
-      "qualification_prob": 25.7,
-      "group_win_prob": 1.2
+      "current_gd": -8,
+      "matches_played": 3,
+      "avg_points_final": 1.0,
+      "qualification_prob": 0.0,
+      "group_win_prob": 0.0
     }
   ],
   "Group F": [
     {
-      "team": "Panama",
-      "elo": 1670.8,
-      "current_points": 0,
-      "current_gd": 0,
-      "matches_played": 0,
-      "avg_points_final": 7.77,
-      "qualification_prob": 132.2,
-      "group_win_prob": 32.1
+      "team": "Netherlands",
+      "elo": 1834.4,
+      "current_points": 7,
+      "current_gd": 6,
+      "matches_played": 3,
+      "avg_points_final": 7.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 100.0
     },
     {
-      "team": "Portugal",
-      "elo": 1792.6,
-      "current_points": 0,
-      "current_gd": 0,
-      "matches_played": 0,
-      "avg_points_final": 5.98,
-      "qualification_prob": 90.2,
-      "group_win_prob": 54.0
+      "team": "Japan",
+      "elo": 1820.0,
+      "current_points": 5,
+      "current_gd": 4,
+      "matches_played": 3,
+      "avg_points_final": 5.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 0.0
     },
     {
-      "team": "Croatia",
-      "elo": 1688.9,
-      "current_points": 0,
+      "team": "Sweden",
+      "elo": 1653.1,
+      "current_points": 4,
       "current_gd": 0,
-      "matches_played": 0,
-      "avg_points_final": 4.01,
-      "qualification_prob": 67.2,
-      "group_win_prob": 19.6
+      "matches_played": 3,
+      "avg_points_final": 4.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 0.0
     },
     {
-      "team": "Uzbekistan",
-      "elo": 1686.8,
+      "team": "Tunisia",
+      "elo": 1574.9,
       "current_points": 0,
-      "current_gd": 0,
-      "matches_played": 0,
-      "avg_points_final": 3.64,
-      "qualification_prob": 61.9,
-      "group_win_prob": 15.6
+      "current_gd": -10,
+      "matches_played": 3,
+      "avg_points_final": 0.0,
+      "qualification_prob": 0.0,
+      "group_win_prob": 0.0
     }
   ],
   "Group G": [
     {
-      "team": "Germany",
-      "elo": 1808.0,
+      "team": "Belgium",
+      "elo": 1799.8,
+      "current_points": 5,
+      "current_gd": 4,
+      "matches_played": 3,
+      "avg_points_final": 5.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 100.0
+    },
+    {
+      "team": "Egypt",
+      "elo": 1758.5,
+      "current_points": 5,
+      "current_gd": 2,
+      "matches_played": 3,
+      "avg_points_final": 5.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 0.0
+    },
+    {
+      "team": "Iran",
+      "elo": 1785.0,
       "current_points": 3,
-      "current_gd": 1,
-      "matches_played": 1,
-      "avg_points_final": 6.53,
-      "qualification_prob": 97.5,
-      "group_win_prob": 65.1
+      "current_gd": 0,
+      "matches_played": 3,
+      "avg_points_final": 3.0,
+      "qualification_prob": 0.0,
+      "group_win_prob": 0.0
     },
     {
-      "team": "Ecuador",
-      "elo": 1735.7,
+      "team": "New Zealand",
+      "elo": 1548.9,
       "current_points": 1,
-      "current_gd": 0,
-      "matches_played": 1,
-      "avg_points_final": 7.08,
-      "qualification_prob": 112.8,
-      "group_win_prob": 20.8
-    },
-    {
-      "team": "Australia",
-      "elo": 1772.6,
-      "current_points": 0,
-      "current_gd": 0,
-      "matches_played": 0,
-      "avg_points_final": 3.33,
-      "qualification_prob": 54.4,
-      "group_win_prob": 11.2
-    },
-    {
-      "team": "Ivory Coast",
-      "elo": 1784.7,
-      "current_points": 0,
-      "current_gd": -1,
-      "matches_played": 1,
-      "avg_points_final": 3.34,
-      "qualification_prob": 57.3,
-      "group_win_prob": 6.0
+      "current_gd": -6,
+      "matches_played": 3,
+      "avg_points_final": 1.0,
+      "qualification_prob": 0.0,
+      "group_win_prob": 0.0
     }
   ],
   "Group H": [
     {
-      "team": "Japan",
-      "elo": 1813.1,
+      "team": "Spain",
+      "elo": 1906.3,
+      "current_points": 7,
+      "current_gd": 5,
+      "matches_played": 3,
+      "avg_points_final": 7.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 100.0
+    },
+    {
+      "team": "Cape Verde",
+      "elo": 1628.7,
       "current_points": 3,
-      "current_gd": 4,
-      "matches_played": 1,
-      "avg_points_final": 6.61,
-      "qualification_prob": 99.7,
-      "group_win_prob": 52.8
+      "current_gd": 0,
+      "matches_played": 3,
+      "avg_points_final": 3.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 0.0
     },
     {
-      "team": "Netherlands",
-      "elo": 1764.7,
-      "current_points": 3,
-      "current_gd": 4,
-      "matches_played": 1,
-      "avg_points_final": 6.37,
-      "qualification_prob": 99.2,
-      "group_win_prob": 46.2
+      "team": "Uruguay",
+      "elo": 1683.9,
+      "current_points": 2,
+      "current_gd": -1,
+      "matches_played": 3,
+      "avg_points_final": 2.0,
+      "qualification_prob": 0.0,
+      "group_win_prob": 0.0
     },
     {
-      "team": "Sweden",
-      "elo": 1670.9,
-      "current_points": 0,
+      "team": "Saudi Arabia",
+      "elo": 1609.9,
+      "current_points": 2,
       "current_gd": -4,
-      "matches_played": 1,
-      "avg_points_final": 2.66,
-      "qualification_prob": 34.0,
-      "group_win_prob": 0.8
-    },
-    {
-      "team": "Tunisia",
-      "elo": 1635.3,
-      "current_points": 0,
-      "current_gd": -4,
-      "matches_played": 1,
-      "avg_points_final": 1.37,
-      "qualification_prob": 11.5,
-      "group_win_prob": 0.3
+      "matches_played": 3,
+      "avg_points_final": 2.0,
+      "qualification_prob": 0.0,
+      "group_win_prob": 0.0
     }
   ],
   "Group I": [
     {
-      "team": "Egypt",
-      "elo": 1730.3,
+      "team": "France",
+      "elo": 1911.0,
+      "current_points": 9,
+      "current_gd": 8,
+      "matches_played": 3,
+      "avg_points_final": 9.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 100.0
+    },
+    {
+      "team": "Norway",
+      "elo": 1779.5,
+      "current_points": 6,
+      "current_gd": 1,
+      "matches_played": 3,
+      "avg_points_final": 6.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 0.0
+    },
+    {
+      "team": "Senegal",
+      "elo": 1771.2,
       "current_points": 3,
       "current_gd": 2,
-      "matches_played": 1,
-      "avg_points_final": 6.69,
-      "qualification_prob": 96.4,
-      "group_win_prob": 48.8
+      "matches_played": 3,
+      "avg_points_final": 3.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 0.0
     },
     {
-      "team": "England",
-      "elo": 1832.8,
+      "team": "Iraq",
+      "elo": 1574.7,
       "current_points": 0,
-      "current_gd": 0,
-      "matches_played": 0,
-      "avg_points_final": 5.7,
-      "qualification_prob": 88.8,
-      "group_win_prob": 30.2
-    },
-    {
-      "team": "Nigeria",
-      "elo": 1771.9,
-      "current_points": 0,
-      "current_gd": 0,
-      "matches_played": 0,
-      "avg_points_final": 4.93,
-      "qualification_prob": 80.9,
-      "group_win_prob": 19.3
-    },
-    {
-      "team": "Ghana",
-      "elo": 1612.6,
-      "current_points": 0,
-      "current_gd": 0,
-      "matches_played": 0,
-      "avg_points_final": 1.89,
-      "qualification_prob": 21.0,
-      "group_win_prob": 1.8
+      "current_gd": -11,
+      "matches_played": 3,
+      "avg_points_final": 0.0,
+      "qualification_prob": 0.0,
+      "group_win_prob": 0.0
     }
   ],
   "Group J": [
     {
-      "team": "Colombia",
-      "elo": 1817.3,
-      "current_points": 0,
-      "current_gd": 0,
-      "matches_played": 0,
-      "avg_points_final": 6.51,
-      "qualification_prob": 95.6,
-      "group_win_prob": 54.1
+      "team": "Argentina",
+      "elo": 1933.9,
+      "current_points": 9,
+      "current_gd": 7,
+      "matches_played": 3,
+      "avg_points_final": 9.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 100.0
     },
     {
-      "team": "Switzerland",
-      "elo": 1761.5,
-      "current_points": 0,
+      "team": "Austria",
+      "elo": 1747.7,
+      "current_points": 4,
       "current_gd": 0,
-      "matches_played": 0,
-      "avg_points_final": 6.0,
-      "qualification_prob": 94.2,
-      "group_win_prob": 41.2
+      "matches_played": 3,
+      "avg_points_final": 4.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 0.0
     },
     {
-      "team": "Congo DR",
-      "elo": 1500,
-      "current_points": 0,
-      "current_gd": 0,
-      "matches_played": 0,
-      "avg_points_final": 2.15,
-      "qualification_prob": 36.2,
-      "group_win_prob": 2.2
+      "team": "Algeria",
+      "elo": 1801.1,
+      "current_points": 4,
+      "current_gd": -2,
+      "matches_played": 3,
+      "avg_points_final": 4.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 0.0
     },
     {
-      "team": "Qatar",
-      "elo": 1502.1,
+      "team": "Jordan",
+      "elo": 1600.0,
       "current_points": 0,
-      "current_gd": 0,
-      "matches_played": 0,
-      "avg_points_final": 2.11,
-      "qualification_prob": 33.5,
-      "group_win_prob": 2.4
+      "current_gd": -5,
+      "matches_played": 3,
+      "avg_points_final": 0.0,
+      "qualification_prob": 0.0,
+      "group_win_prob": 0.0
     }
   ],
   "Group K": [
     {
-      "team": "Norway",
-      "elo": 1793.2,
-      "current_points": 0,
-      "current_gd": 0,
-      "matches_played": 0,
-      "avg_points_final": 6.65,
-      "qualification_prob": 96.0,
-      "group_win_prob": 60.8
+      "team": "Colombia",
+      "elo": 1827.1,
+      "current_points": 7,
+      "current_gd": 3,
+      "matches_played": 3,
+      "avg_points_final": 7.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 100.0
     },
     {
-      "team": "Senegal",
-      "elo": 1754.4,
-      "current_points": 0,
-      "current_gd": 0,
-      "matches_played": 0,
-      "avg_points_final": 5.64,
-      "qualification_prob": 91.6,
-      "group_win_prob": 33.3
+      "team": "Portugal",
+      "elo": 1825.0,
+      "current_points": 5,
+      "current_gd": 5,
+      "matches_played": 3,
+      "avg_points_final": 5.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 0.0
     },
     {
-      "team": "Bosnia and Herzegovina",
-      "elo": 1509.4,
-      "current_points": 0,
-      "current_gd": 0,
-      "matches_played": 0,
-      "avg_points_final": 1.46,
-      "qualification_prob": 20.1,
-      "group_win_prob": 1.6
+      "team": "Congo DR",
+      "elo": 1500,
+      "current_points": 4,
+      "current_gd": 1,
+      "matches_played": 3,
+      "avg_points_final": 4.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 0.0
     },
     {
-      "team": "New Zealand",
-      "elo": 1614.6,
+      "team": "Uzbekistan",
+      "elo": 1610.7,
       "current_points": 0,
-      "current_gd": -2,
-      "matches_played": 1,
-      "avg_points_final": 3.07,
-      "qualification_prob": 44.2,
-      "group_win_prob": 4.3
+      "current_gd": -9,
+      "matches_played": 3,
+      "avg_points_final": 0.0,
+      "qualification_prob": 0.0,
+      "group_win_prob": 0.0
     }
   ],
   "Group L": [
     {
-      "team": "Austria",
-      "elo": 1763.9,
-      "current_points": 0,
-      "current_gd": 0,
-      "matches_played": 0,
-      "avg_points_final": 6.29,
-      "qualification_prob": 93.3,
-      "group_win_prob": 63.4
+      "team": "England",
+      "elo": 1851.5,
+      "current_points": 7,
+      "current_gd": 4,
+      "matches_played": 3,
+      "avg_points_final": 7.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 100.0
     },
     {
-      "team": "Ukraine",
-      "elo": 1631.8,
-      "current_points": 0,
+      "team": "Croatia",
+      "elo": 1743.6,
+      "current_points": 6,
       "current_gd": 0,
-      "matches_played": 0,
-      "avg_points_final": 3.62,
-      "qualification_prob": 62.7,
-      "group_win_prob": 14.9
+      "matches_played": 3,
+      "avg_points_final": 6.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 0.0
     },
     {
-      "team": "Serbia",
-      "elo": 1579.6,
-      "current_points": 0,
+      "team": "Ghana",
+      "elo": 1604.6,
+      "current_points": 4,
       "current_gd": 0,
-      "matches_played": 0,
-      "avg_points_final": 2.18,
-      "qualification_prob": 34.1,
-      "group_win_prob": 5.4
+      "matches_played": 3,
+      "avg_points_final": 4.0,
+      "qualification_prob": 100.0,
+      "group_win_prob": 0.0
     },
     {
-      "team": "Saudi Arabia",
-      "elo": 1640.4,
+      "team": "Panama",
+      "elo": 1616.2,
       "current_points": 0,
       "current_gd": -4,
-      "matches_played": 1,
-      "avg_points_final": 4.45,
-      "qualification_prob": 70.5,
-      "group_win_prob": 16.2
+      "matches_played": 3,
+      "avg_points_final": 0.0,
+      "qualification_prob": 0.0,
+      "group_win_prob": 0.0
     }
   ]
 }
